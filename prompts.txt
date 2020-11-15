@@ -1,40 +1,40 @@
-*/sample1 PESAN NASI GORENG IKAN BAKAR GULAI RENDANG TELUR 
-*/sample2 PESAN AYAM BAKAR AYAM BALADO BATAL NASI RENDANG
-*/sample3 BATAL IKAN AYAM TELUR BALADO PESAN NASI GULAI
-*/sample4 TAMBAH NASI GULAI RENDANG IKAN BAKAR AYAM BALADO
-*/sample5 TAMBAH AYAM POP BAKAR BALADO GORENG PESAN NASI
-*/sample6 BAYAR TUNAI BAYAR KARTU BAYAR NASI AYAM BALADO
-*/sample7 BAYAR TUNAI KARTU TAMBAH KARTU TUNAI PESAN KARTU
-*/sample8 PESAN KARTU TAMBAH TUNAI PESAN NASI TAMBAH RENDANG
-*/sample9 TELUR POP AYAM POP IKAN POP RENDANG POP
-*/sample10 BAYAR BALADO TAMBAH GORENG PESAN BAKAR BATAL BALADO
-*/sample11 GEMULAI TAPI MAKI ADI BAKTI KAMI ABADI DISINI
-*/sample12 GALI PANTAI PETIS BETIS SADIS WAKTU YOYO 
-*/sample13 MAU CACING PITA WAKTU BANDUNG BADAI BADUI LUPA
-*/sample14 GAJAH GADING GUDANG GAUNG AWAS NYIUR NYANYI HAPUS
-*/sample15 KEMANA CICAK KITA DADU FASIH FULAN UDARA EJA
-*/sample16 ZAITUN OPTIK CEKAL DANAU KALAU NAUFAL KOI DOMBA
-*/sample17 KAIN KATUN SAMBAL WALAU JIKA WAHAI DAHAN DAUN
-*/sample18 HADIAH ULANG TAHUN KAMU WAKTU UMUR LIMA BELAS
-*/sample19 MAAF SAYA TERLAMBAT DATANG KE KANTOR JALAN MACET
-*/sample20 TIBET TOLONG HUTANG RANTING CICAK RACUN CURANG LEMAH
-*/sample21 PESAN TAMBAH PESAN BAYAR BATAL TAMBAH BATAL BAYAR
-*/sample22 BAYAR BATAL TUNAI BATAL BAYAR TAMBAH TUNAI TAMBAH
-*/sample23 TAMBAH TAMBAH TUNAI KARTU BAYAR BAYAR TUNAI KARTU
-*/sample24 KARTU NASI BAYAR BAYAR KARTU NASI TUNAI TUNAI
-*/sample25 TUNAI TUNAI KARTU KARTU NASI NASI RENDANG RENDANG
-*/sample26 GULAI IKAN GULAI TELUR AYAM IKAN AYAM TELUR
-*/sample27 TELUR AYAM GORENG AYAM TELUR IKAN GORENG IKAN
-*/sample28 IKAN IKAN GORENG BAKAR TELUR TELUR GORENG BAKAR
-*/sample29 BAKAR POP TELUR TELUR BAKAR POP GORENG GORENG
-*/sample30 GORENG GORENG BAKAR BAKAR POP POP BALADO BALADO
-*/sample31 BELI SATU GRATIS SATU SAYANG SATU PUNYA SATU
-*/sample32 OBAT BATUK TERBAIK DI PULAU JAWA PAPUA KALIMANTAN DEWAN
-*/sample33 LEMPAR BATU SEMBUNYI TANGAN BUANG MUKA TAKUT SEKALI
-*/sample34 PELANGI WARNA WARNI MERAH PUTIH KELABU HITAM COKLAT MERAH
-*/sample35 UANG ORANG MIRIS MELATI OMBAK PELEPAH LALU ANGIN YEREMIA
-*/sample36 KELAPA KEPALA DOMBA DIDIK TANGIS TEMBAK TOLAK TEMBOK
-*/sample37 TUAI TOMBAK GELOMBANG GILA GAYA AWAN SORAK SERANG AMBOI 
-*/sample38 AISYAH AURA ALOI AURAT BAU ZEBRA FASIH FAKTOR FANATIK
-*/sample39 AZHAR GAMA HAKIM HINA AJAIB SUNGAI KOTOR TOILET
-*/sample40 NAUFAL SINGA HARIMAU MAU LALU KOI BEBEK BALI MALANG
+*/sample1 pesan nasi goreng ikan bakar gulai rendang telur 
+*/sample2 pesan ayam bakar ayam balado batal nasi rendang
+*/sample3 batal ikan ayam telur balado pesan nasi gulai
+*/sample4 tambah nasi gulai rendang ikan bakar ayam balado
+*/sample5 tambah ayam pop bakar balado goreng pesan nasi
+*/sample6 bayar tunai bayar kartu bayar nasi ayam balado
+*/sample7 bayar tunai kartu tambah kartu tunai pesan kartu
+*/sample8 pesan kartu tambah tunai pesan nasi tambah rendang
+*/sample9 telur pop ayam pop ikan pop rendang pop
+*/sample10 bayar balado tambah goreng pesan bakar batal balado
+*/sample11 gemulai tapi maki adi bakti kami abadi kaukasoid
+*/sample12 gali pantai petis betis sadis waktu yoyo musyawarah
+*/sample13 mau cacing pita waktu bandung badai badui heroin
+*/sample14 gajah gading gudang gaung awas nyiur nyanyi konvoi
+*/sample15 kemana cicak kita dadu fasih toilet udara eja
+*/sample16 zaitun optik cekal syarat danau kalau naufal koi domba
+*/sample17 kain katun masyarakat sambal walau jika wahai dahan daun
+*/sample18 hadiah ulang tahun kamu waktu umur lima belas
+*/sample19 maaf saya terlambat datang ke kantor jalan macet
+*/sample20 tibet tolong hutang ranting asyik cicak racun curang lemah
+*/sample21 pesan tambah pesan bayar batal tambah batal bayar
+*/sample22 bayar batal tunai batal bayar tambah tunai tambah
+*/sample23 tambah tambah tunai kartu bayar bayar tunai kartu
+*/sample24 kartu nasi bayar bayar kartu nasi tunai tunai
+*/sample25 tunai tunai kartu kartu nasi nasi rendang rendang
+*/sample26 gulai ikan gulai telur ayam ikan ayam telur
+*/sample27 telur ayam goreng ayam telur ikan goreng ikan
+*/sample28 ikan ikan goreng bakar telur telur goreng bakar
+*/sample29 bakar pop telur telur bakar pop goreng goreng
+*/sample30 goreng goreng bakar bakar pop pop balado balado
+*/sample31 beli satu gratis satu sayang satu punya satu
+*/sample32 obat batuk terbaik di pulau jawa papua kalimantan dewan
+*/sample33 lempar batu sembunyi tangan buang muka takut sekali
+*/sample34 pelangi warna warni merah putih kelabu hitam coklat merah
+*/sample35 uang orang miris melati ombak pelepah lalu angin yeremia
+*/sample36 kelapa kepala domba didik tangis tembak tolak tembok
+*/sample37 tuai tombak gelombang gila gaya awan sorak serang amboi 
+*/sample38 aisyah aura aloi aurat bau zebra fasih faktor fanatik
+*/sample39 azhar gama hakim hina ajaib sungai kotor toilet
+*/sample40 naufal singa harimau mau lalu koi bebek bali malang

@@ -5,27 +5,27 @@
 </s>    sil
 
 % LOOKUP
-PESAN   p ә s a n
-BATAL   b a t a l
-TAMBAH  t a m b a h
+pesan   p ә s a n
+batal   b a t a l
+tambah  t a m b a h
 
 % PAY
-BAYAR   b a y a r
+bayar   b a y a r
 
 % METHOD
-TUNAI   t u n ai
-KARTU   k a r t u
+tunai   t u n ai
+kartu   k a r t u
 
 % FOOD_1
-NASI    n a s i
-RENDANG r ә n d a n g
-GULAI   g u l ai
-AYAM    a y a m
-IKAN    i k a n
-TELUR   t ә l u r
+nasi    n a s i
+rendang r ә n d a n g
+gulai   g u l ai
+ayam    a y a m
+ikan    i k a n
+telur   t ә l u r
 
 % DETAIL
-GORENG  g o r e ng
-BAKAR   b a k a r
-POP p o p
-BALADO  b a l a d o
+goreng  g o r e ng
+bakar   b a k a r
+pop p o p
+balado  b a l a d o
