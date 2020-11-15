@@ -5,7 +5,7 @@
 </s>    sil
 
 % LOOKUP
-pesan   p ә s a n
+pesan   p @ s a n
 batal   b a t a l
 tambah  t a m b a h
 
@@ -18,11 +18,11 @@ kartu   k a r t u
 
 % FOOD_1
 nasi    n a s i
-rendang r ә n d a n g
+rendang r @ n d a n g
 gulai   g u l ai
 ayam    a y a m
 ikan    i k a n
-telur   t ә l u r
+telur   t @ l u r
 
 % DETAIL
 goreng  g o r e ng
