@@ -1,0 +1,48 @@
+WARNING: no script file lexicon/indonesian.lex.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+indonesian.l    179201     179201     182636     182636
+    dict-tri    179201     179201     182636     182633
+
+179201 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. a     : 223645
+  2. sp    : 182633
+  3. b     : 38016
+  4. d     : 41849
+  5. t     : 71241
+  6. n     : 96337
+  7. m     : 71299
+  8. i     : 113845
+  9. l     : 54240
+ 10. s     : 73990
+ 11. k     : 76567
+ 12. u     : 67951
+ 13. h     : 27626
+ 14. r     : 88895
+ 15. o     : 56943
+ 16. z     :  2695
+ 17. g     : 22637
+ 18. @     : 102169
+ 19. p     : 48949
+ 20. c     : 18478
+ 21. w     :  9579
+ 22. kh    :  1743
+ 23. ng    : 37135
+ 24. e     : 61295
+ 25. j     : 13143
+ 26. ny    : 23727
+ 27. f     : 14991
+ 28. y     :  9193
+ 29. ai    :  2021
+ 30. au    :   799
+ 31. oi    :   108
+ 32. q     :   429
+ 33. sy    :  1217
+ 34. SPN   :     2
+
+Dictionary dict-tri created
