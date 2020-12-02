@@ -160,6 +160,8 @@ sekali          [sekali]        s @ k a l i sp
 sembilan        [sembilan]      s @ m b i l a n sp
 sembunyi        [sembunyi]      s @ m b u ny i sp
 semiliar        [semiliar]      s @ m i l i a r sp
+SENT-END        []              sil
+SENT-START      []              sil
 sepuluh         [sepuluh]       s @ p u l u h sp
 sepuluh         [sepuluh]       s e p u l u h sp
 serang          [serang]        s @ r a ng sp
