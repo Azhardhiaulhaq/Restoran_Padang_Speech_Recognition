@@ -38,3 +38,13 @@
 */sample38 aisyah aura aloi aurat bau zebra fasih faktor fanatik
 */sample39 azhar gama hakim hina ajaib sungai kotor toilet
 */sample40 naufal singa harimau mau lalu koi bebek bali malang
+*/sample41 pesan nasi rendang gulai ayam bayar tunai
+*/sample42 tambah ikan bakar balado nasi gulai ayam
+*/sample43 nyonya beli sate padang tambah perkedel dua
+*/sample44 satu dua tiga empat lima enam tujuh delapan
+*/sample45 sembilan sepuluh sebelas belas puluh ratus ribu
+*/sample46 seratus seribu sejuta semiliar juta miliar rupiah
+*/sample47 batal nasi gulai ayam bayar kartu
+*/sample48 pesan nasi goreng ayam pop telur balado batal gulai ikan bayar kartu
+*/sample49 tambah rendang goreng ikan ayam pop ikan bakar bayar tunai
+*/sample50 pesan nasi goreng tambah rendang bayar tunai
