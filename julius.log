@@ -7,16 +7,18 @@ Stat: check_hmm_restriction: an HMM with several arcs from initial state found: 
 Stat: rdhmmdef: this HMM requires multipath handling at decoding
 Stat: rdhmmdef: no <SID> embedded
 Stat: rdhmmdef: assign SID by the order of appearance
-Stat: init_phmm: defined HMMs:    32
+Stat: init_phmm: defined HMMs:    57
 Stat: init_phmm: loading ascii hmmlist
-Stat: init_phmm: logical names:    32 in HMMList
+Stat: init_phmm: logical names:   639 in HMMList
 Stat: init_phmm: base phones:    32 used in logical
 Stat: init_phmm: finished reading HMM definitions
 STAT: m_fusion: force multipath HMM handling by user request
+STAT: making pseudo bi/mono-phone for IW-triphone
+Stat: hmm_lookup: 230 pseudo phones are added to logical HMM list
 STAT: *** AM00 _default loaded
 STAT: *** loading LM00 _default
 STAT: reading [sample.dfa] and [sample.dict]...
-Stat: init_voca: read 18 words
+Stat: init_voca: read 26 words
 STAT: done
 STAT: Gram #0 sample registered
 STAT: Gram #0 sample: new grammar loaded, now mash it up for recognition
@@ -34,7 +36,7 @@ STAT: 1 MFCC modules created
 STAT: [2] create recognition processing instance(s) with AM and LM
 STAT: composing recognizer instance SR00 _default (AM00 _default, LM00 _default)
 STAT: Building HMM lexicon tree
-STAT: lexicon size: 284 nodes
+STAT: lexicon size: 436 nodes
 STAT: coordination check passed
 STAT: multi-gram: beam width set to 200 (guess) by lexicon change
 STAT: wchmm (re)build completed
@@ -64,8 +66,8 @@ Configuration of Modules
 
  Acoustic Model (with input parameter spec.):
  - AM00 "_default"
-	hmmfilename=hmm9/hmmdefs
-	hmmmapfilename=monophones1
+	hmmfilename=hmm15/hmmdefs
+	hmmmapfilename=tiedlist
 
  Language Model:
  - LM00 "_default"
@@ -115,8 +117,8 @@ Acoustic Model(s)
 [AM00 "_default"]
 
  HMM Info:
-    32 models, 93 states, 93 mpdfs, 93 Gaussians are defined
-	      model type = context dependency handling OFF
+    57 models, 112 states, 112 mpdfs, 112 Gaussians are defined
+	      model type = context dependency handling ON
       training parameter = MFCC_N_D_Z_0
 	   vector length = 25
 	number of stream = 1
@@ -142,13 +144,13 @@ Language Model(s)
 [LM00 "_default"] type=grammar
 
  DFA grammar info:
-      7 nodes, 8 arcs, 7 terminal(category) symbols
-      category-pair matrix: 40 bytes (804 bytes allocated)
+      8 nodes, 10 arcs, 8 terminal(category) symbols
+      category-pair matrix: 48 bytes (896 bytes allocated)
 
  Vocabulary Info:
-        vocabulary size  = 18 words, 79 models
-        average word len = 4.4 models, 13.2 states
-       maximum state num = 21 nodes per word
+        vocabulary size  = 26 words, 122 models
+        average word len = 4.7 models, 14.1 states
+       maximum state num = 24 nodes per word
        transparent words = not exist
        words under class = not exist
 
@@ -161,9 +163,9 @@ Recognizer(s)
 [SR00 "_default"]  AM00 "_default"  +  LM00 "_default"
 
  Lexicon tree:
-	 total node num =    284
-	  root node num =     17
-	  leaf node num =     18
+	 total node num =    436
+	  root node num =     24
+	  leaf node num =     26
 
 	(-penalty1) IW penalty1 = +5.0
 	(-penalty2) IW penalty2 = +20.0
@@ -175,15 +177,18 @@ Recognizer(s)
 	    multi-path handling = yes, multi-path mode enabled
 	(-b) trellis beam width = 200 (-1 or not specified - guessed)
 	(-bs)score pruning thres= disabled
-	(-n)search candidate num= 2
+	(-n)search candidate num= 1
 	(-s)  search stack size = 500
 	(-m)    search overflow = after 2000 hypothesis poped
 	        2nd pass method = searching sentence, generating N-best
 	(-b2)  pass2 beam width = 200
 	(-lookuprange)lookup range= 5  (tm-5 <= t <tm+5)
 	(-sb)2nd scan beamthres = 200.0 (in logscore)
-	(-n)        search till = 2 candidates found
+	(-n)        search till = 1 candidates found
 	(-output)    and output = 1 candidates out of above
+	 IWCD handling:
+	   1st pass: approximation (use max. prob. of same LC)
+	   2nd pass: loose (apply when hypo. is popped and scanned)
 	 all possible words will be expanded in 2nd pass
 	 build_wchmm2() used
 	 lcdset limited by word-pair constraint
@@ -239,6 +244,70 @@ Stat: adin_portaudio: [Windows DirectSound: Primary Sound Capture Driver]
 Stat: adin_portaudio: (you can specify device by "PORTAUDIO_DEV_NUM=number"
 Stat: adin_portaudio: try to set default low latency from portaudio: 0 msec
 Stat: adin_portaudio: latency was set to 0.000000 msec
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
 STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
