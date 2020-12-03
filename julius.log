@@ -235,77 +235,17 @@ Notice for feature extraction (01),
 Stat: adin_portaudio: audio cycle buffer length = 256000 bytes
 Stat: adin_portaudio: sound capture devices:
   1 [MME: Microsoft Sound Mapper - Input]
-  2 [MME: Microphone Array (Realtek High ]
-  5 [Windows DirectSound: Primary Sound Capture Driver]
-  6 [Windows DirectSound: Microphone Array (Realtek High Definition Audio)]
+  2 [MME: Microphone (Realtek USB2.0 Audi]
+  3 [MME: Microphone (High Definition Aud]
+  7 [Windows DirectSound: Primary Sound Capture Driver]
+  8 [Windows DirectSound: Microphone (Realtek USB2.0 Audio)]
+  9 [Windows DirectSound: Microphone (High Definition Audio Device)]
 Stat: adin_portaudio: APIs: DirectSound MME
 Stat: adin_portaudio: -- DirectSound selected
 Stat: adin_portaudio: [Windows DirectSound: Primary Sound Capture Driver]
 Stat: adin_portaudio: (you can specify device by "PORTAUDIO_DEV_NUM=number"
 Stat: adin_portaudio: try to set default low latency from portaudio: 0 msec
 Stat: adin_portaudio: latency was set to 0.000000 msec
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
 STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
