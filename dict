@@ -24,7 +24,8 @@ batu            [batu]          b a t u sp
 batuk           [batuk]         b a t u k sp
 bau             [bau]           b a u sp
 bayar           [bayar]         b a y a r sp
-bebek           [bebek]         b @ b @ k sp
+bebek           [bebek]         b e b e k sp
+belas           [belas]         b @ l a s sp
 belas           [belas]         b e l a s sp
 beli            [beli]          b e l i sp
 betis           [betis]         b e t i s sp
@@ -41,7 +42,6 @@ datang          [datang]        d a t a ng sp
 daun            [daun]          d a u n sp
 delapan         [delapan]       d @ l a p a n sp
 dewan           [dewan]         d e w a n sp
-di              [di]            d e i sp
 di              [di]            d i sp
 didik           [didik]         d i d i k sp
 domba           [domba]         d o m b a sp
@@ -61,17 +61,14 @@ gaya            [gaya]          g a y a sp
 gelombang       [gelombang]     g @ l o m b a ng sp
 gemulai         [gemulai]       g @ m u l ai sp
 gila            [gila]          g i l a sp
-goreng          [goreng]        g o r @ e ng sp
 goreng          [goreng]        g o r e ng sp
 gratis          [gratis]        g r a t i s sp
 gudang          [gudang]        g u d a ng sp
-gulai           [gulai]         g u l a i sp
 gulai           [gulai]         g u l ai sp
 hadiah          [hadiah]        h a d i a h sp
 hakim           [hakim]         h a k i m sp
 harimau         [harimau]       h a r i m au sp
 heroin          [heroin]        h e r o i n sp
-heroin          [heroin]        h e r oi n sp
 hina            [hina]          h i n a sp
 hitam           [hitam]         h i t a m sp
 hutang          [hutang]        h u t a ng sp
@@ -90,8 +87,6 @@ kartu           [kartu]         k a r t u sp
 katun           [katun]         k a t u n sp
 kaukasoid       [kaukasoid]     k au k a s oi d sp
 ke              [ke]            k @ sp
-ke              [ke]            k a e sp
-ke              [ke]            k e sp
 kelabu          [kelabu]        k @ l a b u sp
 kelapa          [kelapa]        k @ l a p a sp
 kemana          [kemana]        k @ m a n a sp
@@ -106,7 +101,6 @@ lempar          [lempar]        l e m p a r sp
 lima            [lima]          l i m a sp
 maaf            [maaf]          m a a f sp
 macet           [macet]         m a c @ t sp
-macet           [macet]         m a c e t sp
 maki            [maki]          m a k i sp
 malang          [malang]        m a l a ng sp
 masyarakat      [masyarakat]    m a sy a r a k a t sp
@@ -137,6 +131,7 @@ pesan           [pesan]         p @ s a n sp
 petis           [petis]         p @ t i s sp
 pita            [pita]          p i t a sp
 pop             [pop]           p o p sp
+porsi           [porsi]         p o r s i sp
 pulau           [pulau]         p u l au sp
 puluh           [puluh]         p u l u h sp
 punya           [punya]         p u ny a sp
@@ -155,19 +150,15 @@ saya            [saya]          s a y a sp
 sayang          [sayang]        s a y a ng sp
 sebelas         [sebelas]       s @ b @ l a s sp
 sejuta          [sejuta]        s @ j u t a sp
-sekali          [sekali]        e k a l i sp
 sekali          [sekali]        s @ k a l i sp
 sembilan        [sembilan]      s @ m b i l a n sp
 sembunyi        [sembunyi]      s @ m b u ny i sp
 semiliar        [semiliar]      s @ m i l i a r sp
-SENT-END        []              sil
-SENT-START      []              sil
 sepuluh         [sepuluh]       s @ p u l u h sp
-sepuluh         [sepuluh]       s e p u l u h sp
 serang          [serang]        s @ r a ng sp
-serang          [serang]        s e r a ng sp
 seratus         [seratus]       s @ r a t u s sp
 seribu          [seribu]        s @ r i b u sp
+setengah        [setengah]      s @ t @ ng a h sp
 singa           [singa]         s i ng a sp
 sorak           [sorak]         s o r a k sp
 sungai          [sungai]        s u ng ai sp
@@ -184,14 +175,11 @@ tembok          [tembok]        t e m b o k sp
 terbaik         [terbaik]       t @ r b a i k sp
 terlambat       [terlambat]     t @ r l a m b a t sp
 tibet           [tibet]         t i b e t sp
-tiga            [tiga]          s a t u sp
 tiga            [tiga]          t i g a sp
 toilet          [toilet]        t o i l e t sp
-toilet          [toilet]        t oi l e t sp
 tolak           [tolak]         t o l a k sp
 tolong          [tolong]        t o l o ng sp
 tombak          [tombak]        t o m b a k sp
-tuai            [tuai]          t u a i sp
 tuai            [tuai]          t u ai sp
 tujuh           [tujuh]         t u j u h sp
 tunai           [tunai]         t u n ai sp
@@ -207,5 +195,4 @@ warni           [warni]         w a r n i sp
 yeremia         [yeremia]       y e r e m i a sp
 yoyo            [yoyo]          y o y o sp
 zaitun          [zaitun]        z a i t u n sp
-zebra           [zebra]         z @ b r a sp
 zebra           [zebra]         z e b r a sp

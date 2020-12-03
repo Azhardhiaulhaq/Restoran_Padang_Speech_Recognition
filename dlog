@@ -1,4 +1,4 @@
-WARNING: no script file lexicon/indonesian.lex.ded
+WARNING: no script file lexicon/new_indonesia.lex.ded
 Missing Words
 -------------
 SENT-END
@@ -7,43 +7,43 @@ SENT-START
 Dictionary Usage Statistics
 ---------------------------
   Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
-indonesian.l    178841        194     182272        209
-        dict       194        194        209        209
+new_indonesi       196        196        200        200
+        dict       196        196        200        198
 
-196 words required, 2 missing
+198 words required, 2 missing
 
 New Phone Usage Counts
 ---------------------
-  1. a     :   212
+  1. a     :   206
   2. b     :    41
-  3. d     :    29
-  4. i     :    75
-  5. sp    :   209
+  3. d     :    28
+  4. i     :    72
+  5. sp    :   198
   6. sy    :     5
-  7. h     :    28
+  7. h     :    27
   8. j     :     9
-  9. l     :    51
+  9. l     :    48
  10. o     :    29
- 11. m     :    44
- 12. oi    :     5
- 13. ng    :    29
- 14. n     :    36
- 15. k     :    51
- 16. u     :    64
- 17. r     :    49
+ 11. m     :    43
+ 12. oi    :     3
+ 13. ng    :    28
+ 14. n     :    35
+ 15. k     :    48
+ 16. u     :    59
+ 17. r     :    46
  18. au    :     7
- 19. t     :    68
+ 19. t     :    64
  20. w     :    10
  21. s     :    37
  22. y     :     8
- 23. z     :     4
+ 23. z     :     3
  24. ai    :     8
- 25. @     :    41
- 26. e     :    28
- 27. c     :    10
+ 25. e     :    20
+ 26. @     :    40
+ 27. c     :     9
  28. p     :    27
  29. f     :     6
- 30. g     :    16
+ 30. g     :    14
  31. ny    :     7
 
 Dictionary dict created
