@@ -1,48 +1,45 @@
-WARNING: no script file lexicon/indonesian.lex.ded
+WARNING: no script file lexicon/new_indonesia.lex.ded
 
 Dictionary Usage Statistics
 ---------------------------
   Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
-indonesian.l    179201     179201     182636     182636
-    dict-tri    179201     179201     182636     182633
+new_indonesi       196        196        200        200
+    dict-tri       196        196        200        198
 
-179201 words required, 0 missing
+196 words required, 0 missing
 
 New Phone Usage Counts
 ---------------------
-  1. a     : 223645
-  2. sp    : 182633
-  3. b     : 38016
-  4. d     : 41849
-  5. t     : 71241
-  6. n     : 96337
-  7. m     : 71299
-  8. i     : 113845
-  9. l     : 54240
- 10. s     : 73990
- 11. k     : 76567
- 12. u     : 67951
- 13. h     : 27626
- 14. r     : 88895
- 15. o     : 56943
- 16. z     :  2695
- 17. g     : 22637
- 18. @     : 102169
- 19. p     : 48949
- 20. c     : 18478
- 21. w     :  9579
- 22. kh    :  1743
- 23. ng    : 37135
- 24. e     : 61295
- 25. j     : 13143
- 26. ny    : 23727
- 27. f     : 14991
- 28. y     :  9193
- 29. ai    :  2021
- 30. au    :   799
- 31. oi    :   108
- 32. q     :   429
- 33. sy    :  1217
- 34. SPN   :     2
+  1. a     :   206
+  2. b     :    41
+  3. d     :    28
+  4. i     :    72
+  5. sp    :   198
+  6. sy    :     5
+  7. h     :    27
+  8. j     :     9
+  9. l     :    48
+ 10. o     :    29
+ 11. m     :    43
+ 12. oi    :     3
+ 13. ng    :    28
+ 14. n     :    35
+ 15. k     :    48
+ 16. u     :    59
+ 17. r     :    46
+ 18. au    :     7
+ 19. t     :    64
+ 20. w     :    10
+ 21. s     :    37
+ 22. y     :     8
+ 23. z     :     3
+ 24. ai    :     8
+ 25. e     :    20
+ 26. @     :    40
+ 27. c     :     9
+ 28. p     :    27
+ 29. f     :     6
+ 30. g     :    14
+ 31. ny    :     7
 
 Dictionary dict-tri created
