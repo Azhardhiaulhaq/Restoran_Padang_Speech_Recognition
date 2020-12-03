@@ -1,3 +1,4 @@
+
 abadi	[abadi]	a b a d i
 adi	    [adi]	a d i
 aisyah	[aisyah]	a i sy a h
@@ -156,8 +157,8 @@ sekali	[sekali]	s @ k a l i
 sembilan	[sembilan]	s @ m b i l a n
 sembunyi	[sembunyi]	s @ m b u ny i
 semiliar	[semiliar]	s @ m i l i a r
-SENT-END    []  sil
-SENT-START  []  sil
+sent-end    []  sil
+sent-start  []  sil
 sepuluh	[sepuluh]	s @ p u l u h
 serang	[serang]	s @ r a ng
 seratus	[seratus]	s @ r a t u s

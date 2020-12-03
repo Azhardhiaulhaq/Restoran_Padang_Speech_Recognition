@@ -7,7 +7,7 @@ Stat: check_hmm_restriction: an HMM with several arcs from initial state found: 
 Stat: rdhmmdef: this HMM requires multipath handling at decoding
 Stat: rdhmmdef: no <SID> embedded
 Stat: rdhmmdef: assign SID by the order of appearance
-Stat: init_phmm: defined HMMs:    57
+Stat: init_phmm: defined HMMs:    45
 Stat: init_phmm: loading ascii hmmlist
 Stat: init_phmm: logical names:   639 in HMMList
 Stat: init_phmm: base phones:    32 used in logical
@@ -84,7 +84,7 @@ Speech Analysis Module(s)
 [MFCC01]  for [AM00 _default]
 
  Acoustic analysis condition:
-	       parameter = MFCC_0_D_N_Z (25 dim. from 12 cepstrum + c0, abs energy supressed with CMN)
+	       parameter = MFCC_0_D_A (39 dim. from 12 cepstrum + c0)
 	sample frequency = 16000 Hz
 	   sample period =  625  (1 = 100ns)
 	     window size =  400 samples (25.0 ms)
@@ -95,6 +95,7 @@ Speech Analysis Module(s)
 	      raw energy = False
 	energy normalize = False
 	    delta window = 2 frames (20.0 ms) around
+	      acc window = 2 frames (20.0 ms) around
 	     hi freq cut = OFF
 	     lo freq cut = OFF
 	 zero mean frame = OFF
@@ -104,9 +105,7 @@ Speech Analysis Module(s)
 
     spectral subtraction = off
 
- cep. mean normalization = yes, real-time MAP-CMN, updating mean with last 0.0 sec. input
-  initial mean from file = N/A
-   beginning data weight = 100.00
+ cep. mean normalization = no
  cep. var. normalization = no
 
 	 base setup from = Julius defaults
@@ -117,12 +116,12 @@ Acoustic Model(s)
 [AM00 "_default"]
 
  HMM Info:
-    57 models, 112 states, 112 mpdfs, 112 Gaussians are defined
+    45 models, 106 states, 106 mpdfs, 106 Gaussians are defined
 	      model type = context dependency handling ON
-      training parameter = MFCC_N_D_Z_0
-	   vector length = 25
+      training parameter = MFCC_D_A_0
+	   vector length = 39
 	number of stream = 1
-	     stream info = [0-24]
+	     stream info = [0-38]
 	cov. matrix type = DIAGC
 	   duration type = NULLD
 	max mixture size = 1 Gaussians
@@ -144,8 +143,8 @@ Language Model(s)
 [LM00 "_default"] type=grammar
 
  DFA grammar info:
-      8 nodes, 10 arcs, 8 terminal(category) symbols
-      category-pair matrix: 48 bytes (896 bytes allocated)
+      9 nodes, 12 arcs, 8 terminal(category) symbols
+      category-pair matrix: 52 bytes (896 bytes allocated)
 
  Vocabulary Info:
         vocabulary size  = 26 words, 122 models
@@ -226,86 +225,20 @@ FrontEnd:
 
 ----------------------- System Information end -----------------------
 
-Notice for feature extraction (01),
-	*************************************************************
-	* Cepstral mean normalization for real-time decoding:       *
-	* NOTICE: The first input may not be recognized, since      *
-	*         no initial mean is available on startup.          *
-	*************************************************************
 Stat: adin_portaudio: audio cycle buffer length = 256000 bytes
 Stat: adin_portaudio: sound capture devices:
   1 [MME: Microsoft Sound Mapper - Input]
-  2 [MME: Microphone Array (Realtek High ]
-  5 [Windows DirectSound: Primary Sound Capture Driver]
-  6 [Windows DirectSound: Microphone Array (Realtek High Definition Audio)]
+  2 [MME: Microphone (Realtek USB2.0 Audi]
+  3 [MME: Microphone (High Definition Aud]
+  7 [Windows DirectSound: Primary Sound Capture Driver]
+  8 [Windows DirectSound: Microphone (Realtek USB2.0 Audio)]
+  9 [Windows DirectSound: Microphone (High Definition Audio Device)]
 Stat: adin_portaudio: APIs: DirectSound MME
 Stat: adin_portaudio: -- DirectSound selected
 Stat: adin_portaudio: [Windows DirectSound: Primary Sound Capture Driver]
 Stat: adin_portaudio: (you can specify device by "PORTAUDIO_DEV_NUM=number"
 Stat: adin_portaudio: try to set default low latency from portaudio: 0 msec
 Stat: adin_portaudio: latency was set to 0.000000 msec
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
 STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
