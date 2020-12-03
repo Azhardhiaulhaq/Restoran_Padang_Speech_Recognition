@@ -158,7 +158,7 @@ sepuluh	[sepuluh]	s @ p u l u h
 serang	[serang]	s @ r a ng
 seratus	[seratus]	s @ r a t u s
 seribu	[seribu]	s @ r i b u
-setengah [setengah] s @ t e ng a h
+setengah [setengah] s @ t @ ng a h
 singa	[singa]	s i ng a
 sorak	[sorak]	s o r a k
 sungai	[sungai]	s u ng ai
