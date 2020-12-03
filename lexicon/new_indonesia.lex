@@ -36,6 +36,7 @@ cicak	[cicak]	c i c a k
 coklat	[coklat]	c o k l a t
 curang	[curang]	c u r a ng
 dadu	[dadu]	d a d u
+dahan   [dahan] d a h a n
 danau	[danau]	d a n au
 datang	[datang]	d a t a ng
 daun	[daun]	d a u n
@@ -57,6 +58,7 @@ gajah	[gajah]	g a j a h
 gali	[gali]	g a l i
 gama	[gama]	g a m a
 gaung	[gaung]	g a u ng
+gaya    [gaya]  g a y a
 gelombang	[gelombang]	g @ l o m b a ng
 gemulai	[gemulai]	g @ m u l ai
 gila	[gila]	g i l a
