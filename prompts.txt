@@ -48,13 +48,13 @@
 */sample48 pesan nasi goreng ayam pop telur balado batal gulai ikan bayar kartu
 */sample49 tambah rendang goreng ikan ayam pop ikan bakar bayar tunai
 */sample50 pesan nasi goreng tambah rendang bayar tunai
-*/sample51 Raihan
-*/sample52 
-*/sample53 Aisyah
-*/sample54 
+*/sample51 pesan nasi setengah rendang tiga ayam tujuh telur lima
+*/sample52 tambah nasi setengah ayam dua rendang empat telur delapan
+*/sample53 tambah nasi tiga porsi pesan ayam dua pesan ikan tiga
+*/sample54 pesan ayam sepuluh bayar tunai pesan rendang setengah bayar kartu
 */sample55 satu dua tiga empat lima enam tujuh delapan sembilan sepuluh setengah
 */sample56 pesan telur dua porsi rendang lima ayam tiga
-*/sample57 Gama
-*/sample58 
-*/sample59 Hakim
-*/sample60 
+*/sample57 dua empat lima enam tujuh pesan rendang porsi setengah 
+*/sample58 pesan bayar batal dua satu tiga gulai porsi enam
+*/sample59 pesan tambah tunai nasi gulai ikan setengah dua empat enam delapan sepuluh
+*/sample60 batal bayar kartu rendang ayam telur satu tiga lima tujuh sembilan
