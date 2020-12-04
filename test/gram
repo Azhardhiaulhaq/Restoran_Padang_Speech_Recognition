@@ -1,0 +1,7 @@
+$lookup = pesan | batal | tambah;
+$pay = bayar;
+$method = tunai | kartu;
+$food = nasi | rendang | gulai | ayam | ikan | telur;
+$quantity = setengah | satu | dua | tiga | empat | lima | enam | tujuh | delapan | sembilan | sepuluh;
+$portion = porsi;
+( SENT-START ($lookup <$food> | $lookup $food $quantity | $lookup $food $quantity $portion | $pay $method ) SENT-END )
