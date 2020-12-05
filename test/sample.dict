@@ -1,0 +1,26 @@
+0	[<s>]	sil
+1	[</s>]	sil
+2	[pesan]	p @ s a n
+2	[batal]	b a t a l
+2	[tambah]	t a m b a h
+3	[bayar]	b a y a r
+4	[tunai]	t u n ai
+4	[kartu]	k a r t u
+5	[nasi]	n a s i
+5	[rendang]	r @ n d a ng
+5	[gulai]	g u l ai
+5	[ayam]	a y a m
+5	[ikan]	i k a n
+5	[telur]	t @ l u r
+6	[setengah]	s @ t @ ng a h
+6	[satu]	s a t u
+6	[dua]	d u a
+6	[tiga]	t i g a
+6	[empat]	@ m p a t
+6	[lima]	l i m a
+6	[enam]	@ n a m
+6	[tujuh]	t u j u h
+6	[delapan]	d @ l a p a n
+6	[sembilan]	s @ m b i l a n
+6	[sepuluh]	s @ p u l u h
+7	[porsi]	p o r s i
