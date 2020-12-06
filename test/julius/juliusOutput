@@ -302,6 +302,44 @@ score1: -33901.835938
 
 ------
 ### read waveform input
+Stat: adin_file: input speechfile: ../wav/test5.wav
+STAT: 55356 samples (3.46 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> batal rendang empat
+pass1_best_wordseq: 0 2 5 6
+pass1_best_phonemeseq: sil | b a t a l | r @ n d a ng | @ m p a t
+pass1_best_score: -7841.432129
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 28 generated, 28 pushed, 6 nodes popped in 344
+sentence1: <s> batal rendang empat </s>
+wseq1: 0 2 5 6 1
+phseq1: sil | b a t a l | r @ n d a ng | @ m p a t | sil
+cmscore1: 1.000 0.978 0.877 0.258 1.000
+score1: -7780.842285
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test6.wav
+STAT: 41982 samples (2.62 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> tambah telur
+pass1_best_wordseq: 0 2 5
+pass1_best_phonemeseq: sil | t a m b a h | t @ l u r
+pass1_best_score: -5943.376953
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 24 generated, 24 pushed, 5 nodes popped in 260
+sentence1: <s> tambah telur </s>
+wseq1: 0 2 5 1
+phseq1: sil | t a m b a h | t @ l u r | sil
+cmscore1: 1.000 0.684 0.363 1.000
+score1: -5901.272949
+
+
+------
+### read waveform input
 Stat: adin_file: input speechfile: ../wav/test7.wav
 Warning: strip: sample 0-1412 has zero value, stripped
 STAT: 31281 samples (1.96 sec.)
