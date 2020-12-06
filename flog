@@ -3,39 +3,39 @@ WARNING: no script file lexicon/new_indonesia.lex.ded
 Dictionary Usage Statistics
 ---------------------------
   Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
-new_indonesi       196        196        200        200
-    dict-tri       196        196        200        198
+new_indonesi       198        198        201        201
+    dict-tri       198        198        201        198
 
-196 words required, 0 missing
+198 words required, 0 missing
 
 New Phone Usage Counts
 ---------------------
-  1. a     :   206
-  2. b     :    41
-  3. d     :    28
-  4. i     :    72
-  5. sp    :   198
-  6. sy    :     5
-  7. h     :    27
-  8. j     :     9
-  9. l     :    48
- 10. o     :    29
- 11. m     :    43
- 12. oi    :     3
- 13. ng    :    28
- 14. n     :    35
- 15. k     :    48
- 16. u     :    59
- 17. r     :    46
- 18. au    :     7
- 19. t     :    64
- 20. w     :    10
- 21. s     :    37
- 22. y     :     8
- 23. z     :     3
- 24. ai    :     8
- 25. e     :    20
- 26. @     :    40
+  1. sil   :     2
+  2. a     :   204
+  3. b     :    40
+  4. d     :    28
+  5. i     :    72
+  6. sp    :   196
+  7. sy    :     5
+  8. h     :    26
+  9. j     :     9
+ 10. l     :    47
+ 11. o     :    29
+ 12. m     :    42
+ 13. oi    :     3
+ 14. ng    :    28
+ 15. n     :    35
+ 16. k     :    48
+ 17. u     :    59
+ 18. r     :    45
+ 19. au    :     7
+ 20. t     :    64
+ 21. w     :    10
+ 22. s     :    36
+ 23. y     :     8
+ 24. z     :     3
+ 25. ai    :     8
+ 26. e     :    58
  27. c     :     9
  28. p     :    27
  29. f     :     6
