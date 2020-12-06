@@ -1,0 +1,23 @@
+Name  = RestoranPadang
+SeqNo = 1
+Entries = 17
+EscMode  = RAW
+Fields  = ID,WFC
+\Words\
+<s>	65536	8
+pesan	65537	4
+ayam	65538	11
+rendang	65539	5
+</s>	65540	8
+telur	65541	5
+enam	65542	1
+batal	65543	2
+gulai	65544	7
+nasi	65545	5
+tambah	65546	1
+ikan	65547	2
+bayar	65548	1
+kartu	65549	1
+lima	65550	1
+delapan	65551	2
+porsi	65552	2

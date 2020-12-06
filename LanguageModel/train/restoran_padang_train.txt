@@ -1,0 +1,229 @@
+<s> pesan nasi </s>
+<s> pesan rendang </s>
+<s> pesan gulai </s>
+<s> pesan ayam </s>
+<s> pesan ikan </s>
+<s> pesan telur </s>
+<s> batal nasi </s>
+<s> batal rendang </s>
+<s> batal gulai </s>
+<s> batal ayam </s>
+<s> batal ikan </s>
+<s> batal telur </s>
+<s> tambah nasi </s>
+<s> tambah rendang </s>
+<s> tambah gulai </s>
+<s> tambah ayam </s>
+<s> tambah ikan </s>
+<s> tambah telur </s>
+<s> satu porsi </s>
+<s> dua porsi </s>
+<s> tiga porsi </s>
+<s> empat porsi </s>
+<s> lima porsi </s>
+<s> enam porsi </s>
+<s> tujuh porsi </s>
+<s> delapan porsi </s>
+<s> sembilan porsi </s>
+<s> sepuluh porsi </s>
+<s> setengah porsi </s>
+<s> pesan nasi satu </s>
+<s> pesan nasi dua </s>
+<s> pesan nasi tiga </s>
+<s> pesan nasi empat </s>
+<s> pesan nasi lima </s>
+<s> pesan nasi enam </s>
+<s> pesan nasi tujuh </s>
+<s> pesan nasi delapan </s>
+<s> pesan nasi sembilan </s>
+<s> pesan nasi sepuluh </s>
+<s> pesan nasi setengah </s>
+<s> pesan gulai satu </s>
+<s> pesan gulai dua </s>
+<s> pesan gulai tiga </s>
+<s> pesan gulai empat </s>
+<s> pesan gulai lima </s>
+<s> pesan gulai enam </s>
+<s> pesan gulai tujuh </s>
+<s> pesan gulai delapan </s>
+<s> pesan gulai sembilan </s>
+<s> pesan gulai sepuluh </s>
+<s> pesan gulai setengah </s>
+<s> pesan ayam satu </s>
+<s> pesan ayam dua </s>
+<s> pesan ayam tiga </s>
+<s> pesan ayam empat </s>
+<s> pesan ayam lima </s>
+<s> pesan ayam enam </s>
+<s> pesan ayam tujuh </s>
+<s> pesan ayam delapan </s>
+<s> pesan ayam sembilan </s>
+<s> pesan ayam sepuluh </s>
+<s> pesan ayam setengah </s>
+<s> pesan ikan satu </s>
+<s> pesan ikan dua </s>
+<s> pesan ikan tiga </s>
+<s> pesan ikan empat </s>
+<s> pesan ikan lima </s>
+<s> pesan ikan enam </s>
+<s> pesan ikan tujuh </s>
+<s> pesan ikan delapan </s>
+<s> pesan ikan sembilan </s>
+<s> pesan ikan sepuluh </s>
+<s> pesan ikan setengah </s>
+<s> pesan telur satu </s>
+<s> pesan telur dua </s>
+<s> pesan telur tiga </s>
+<s> pesan telur empat </s>
+<s> pesan telur lima </s>
+<s> pesan telur enam </s>
+<s> pesan telur tujuh </s>
+<s> pesan telur delapan </s>
+<s> pesan telur sembilan </s>
+<s> pesan telur sepuluh </s>
+<s> pesan telur setengah </s>
+<s> pesan rendang satu </s>
+<s> pesan rendang dua </s>
+<s> pesan rendang tiga </s>
+<s> pesan rendang empat </s>
+<s> pesan rendang lima </s>
+<s> pesan rendang enam </s>
+<s> pesan rendang tujuh </s>
+<s> pesan rendang delapan </s>
+<s> pesan rendang sembilan </s>
+<s> pesan rendang sepuluh </s>
+<s> pesan rendang setengah </s>
+<s> bayar tunai </s>
+<s> bayar kartu </s>
+<s> batal nasi satu </s>
+<s> batal nasi dua </s>
+<s> batal nasi tiga </s>
+<s> batal nasi empat </s>
+<s> batal nasi lima </s>
+<s> batal nasi enam </s>
+<s> batal nasi tujuh </s>
+<s> batal nasi delapan </s>
+<s> batal nasi sembilan </s>
+<s> batal nasi sepuluh </s>
+<s> batal nasi setengah </s>
+<s> batal gulai satu </s>
+<s> batal gulai dua </s>
+<s> batal gulai tiga </s>
+<s> batal gulai empat </s>
+<s> batal gulai lima </s>
+<s> batal gulai enam </s>
+<s> batal gulai tujuh </s>
+<s> batal gulai delapan </s>
+<s> batal gulai sembilan </s>
+<s> batal gulai sepuluh </s>
+<s> batal gulai setengah </s>
+<s> batal ayam satu </s>
+<s> batal ayam dua </s>
+<s> batal ayam tiga </s>
+<s> batal ayam empat </s>
+<s> batal ayam lima </s>
+<s> batal ayam enam </s>
+<s> batal ayam tujuh </s>
+<s> batal ayam delapan </s>
+<s> batal ayam sembilan </s>
+<s> batal ayam sepuluh </s>
+<s> batal ayam setengah </s>
+<s> batal ikan satu </s>
+<s> batal ikan dua </s>
+<s> batal ikan tiga </s>
+<s> batal ikan empat </s>
+<s> batal ikan lima </s>
+<s> batal ikan enam </s>
+<s> batal ikan tujuh </s>
+<s> batal ikan delapan </s>
+<s> batal ikan sembilan </s>
+<s> batal ikan sepuluh </s>
+<s> batal ikan setengah </s>
+<s> batal telur satu </s>
+<s> batal telur dua </s>
+<s> batal telur tiga </s>
+<s> batal telur empat </s>
+<s> batal telur lima </s>
+<s> batal telur enam </s>
+<s> batal telur tujuh </s>
+<s> batal telur delapan </s>
+<s> batal telur sembilan </s>
+<s> batal telur sepuluh </s>
+<s> batal telur setengah </s>
+<s> batal rendang satu </s>
+<s> batal rendang dua </s>
+<s> batal rendang tiga </s>
+<s> batal rendang empat </s>
+<s> batal rendang lima </s>
+<s> batal rendang enam </s>
+<s> batal rendang tujuh </s>
+<s> batal rendang delapan </s>
+<s> batal rendang sembilan </s>
+<s> batal rendang sepuluh </s>
+<s> batal rendang setengah </s>
+<s> tambah nasi satu </s>
+<s> tambah nasi dua </s>
+<s> tambah nasi tiga </s>
+<s> tambah nasi empat </s>
+<s> tambah nasi lima </s>
+<s> tambah nasi enam </s>
+<s> tambah nasi tujuh </s>
+<s> tambah nasi delapan </s>
+<s> tambah nasi sembilan </s>
+<s> tambah nasi sepuluh </s>
+<s> tambah nasi setengah </s>
+<s> tambah gulai satu </s>
+<s> tambah gulai dua </s>
+<s> tambah gulai tiga </s>
+<s> tambah gulai empat </s>
+<s> tambah gulai lima </s>
+<s> tambah gulai enam </s>
+<s> tambah gulai tujuh </s>
+<s> tambah gulai delapan </s>
+<s> tambah gulai sembilan </s>
+<s> tambah gulai sepuluh </s>
+<s> tambah gulai setengah </s>
+<s> tambah ayam satu </s>
+<s> tambah ayam dua </s>
+<s> tambah ayam tiga </s>
+<s> tambah ayam empat </s>
+<s> tambah ayam lima </s>
+<s> tambah ayam enam </s>
+<s> tambah ayam tujuh </s>
+<s> tambah ayam delapan </s>
+<s> tambah ayam sembilan </s>
+<s> tambah ayam sepuluh </s>
+<s> tambah ayam setengah </s>
+<s> tambah ikan satu </s>
+<s> tambah ikan dua </s>
+<s> tambah ikan tiga </s>
+<s> tambah ikan empat </s>
+<s> tambah ikan lima </s>
+<s> tambah ikan enam </s>
+<s> tambah ikan tujuh </s>
+<s> tambah ikan delapan </s>
+<s> tambah ikan sembilan </s>
+<s> tambah ikan sepuluh </s>
+<s> tambah ikan setengah </s>
+<s> tambah telur satu </s>
+<s> tambah telur dua </s>
+<s> tambah telur tiga </s>
+<s> tambah telur empat </s>
+<s> tambah telur lima </s>
+<s> tambah telur enam </s>
+<s> tambah telur tujuh </s>
+<s> tambah telur delapan </s>
+<s> tambah telur sembilan </s>
+<s> tambah telur sepuluh </s>
+<s> tambah telur setengah </s>
+<s> tambah rendang satu </s>
+<s> tambah rendang dua </s>
+<s> tambah rendang tiga </s>
+<s> tambah rendang empat </s>
+<s> tambah rendang lima </s>
+<s> tambah rendang enam </s>
+<s> tambah rendang tujuh </s>
+<s> tambah rendang delapan </s>
+<s> tambah rendang sembilan </s>
+<s> tambah rendang sepuluh </s>
+<s> tambah rendang setengah </s>
