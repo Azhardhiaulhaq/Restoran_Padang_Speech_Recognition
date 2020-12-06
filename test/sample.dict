@@ -1,26 +1,26 @@
-[<s>] sil
-[</s>]    sil
-[pesan]	p @ s a n
-[batal]	b a t a l
-[tambah]	t a m b a h
-[bayar]	b a y a r
-[tunai]	t u n ai
-[kartu]	k a r t u
-[nasi]	n a s i
-[rendang]	r @ n d a ng
-[gulai]	g u l ai
-[ayam]	a y a m
-[ikan]	i k a n
-[telur]	t @ l u r
-[setengah]	s @ t @ ng a h
-[satu]	s a t u
-[dua]	d u a
-[tiga]	t i g a
-[empat]   @ m p a t
-[lima]	l i m a
-[enam]   @ n a m
-[tujuh]	t u j u h
-[delapan]	d @ l a p a n
-[sembilan]	s @ m b i l a n
-[sepuluh]	s @ p u l u h
-[porsi]	p o r s i
+0	[<s>]	sil
+1	[</s>]	sil
+2	[pesan]	p e s a n
+2	[batal]	b a t a l
+2	[tambah]	t a m b a h
+3	[bayar]	b a y a r
+4	[tunai]	t u n ai
+4	[kartu]	k a r t u
+5	[nasi]	n a s i
+5	[rendang]	r e n d a ng
+5	[gulai]	g u l ai
+5	[ayam]	a y a m
+5	[ikan]	i k a n
+5	[telur]	t e l u r
+6	[setengah]	s e t e ng a h
+6	[satu]	s a t u
+6	[dua]	d u a
+6	[tiga]	t i g a
+6	[empat]	e m p a t
+6	[lima]	l i m a
+6	[enam]	e n a m
+6	[tujuh]	t u j u h
+6	[delapan]	d e l a p a n
+6	[sembilan]	s e m b i l a n
+6	[sepuluh]	s e p u l u h
+7	[porsi]	p o r s i
