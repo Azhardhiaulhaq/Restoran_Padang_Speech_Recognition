@@ -1,0 +1,251 @@
+\data\
+ngram 1=26
+ngram 2=107
+ngram 3=106
+
+\1-grams:
+-0.5875	</s>	-2.0000
+-99.9900 <s>	-1.1944
+-1.3892	ayam	-1.7039
+-1.0881	batal	-1.8787
+-2.6444	bayar
+-1.6667	delapan	-1.1489
+-1.6667	dua	-1.1489
+-1.6667	empat	-1.1489
+-1.6667	enam	-1.1489
+-1.3892	gulai	-1.7039
+-1.3892	ikan	-1.7039
+-2.9455	kartu
+-1.6667	lima	-1.1489
+-1.3892	nasi	-1.7039
+-1.0881	pesan	-1.8787
+-1.9041	porsi	-1.8701
+-1.4014	rendang	-1.7039
+-1.6667	satu	-1.1489
+-1.6667	sembilan	-1.1489
+-1.6667	sepuluh	-1.1489
+-1.6902	setengah	-1.1254
+-1.0881	tambah	-1.8787
+-1.3892	telur	-1.7039
+-1.6667	tiga	-1.1489
+-1.6667	tujuh	-1.1489
+-2.9455	tunai
+
+\2-grams:
+-0.0044	</s> <s>	+0.0019
+-0.5025	<s> batal	+0.0000
+-2.0632	<s> bayar
+-0.5025	<s> pesan	+0.0000
+-0.5025	<s> tambah	+0.0000
+-1.0835	ayam </s>	+0.0000
+-1.0835	ayam delapan	-0.7212
+-1.0835	ayam dua	-0.7212
+-1.0835	ayam empat	-0.7212
+-1.0835	ayam enam	-0.7212
+-1.0835	ayam lima	-0.7212
+-1.0835	ayam satu	-0.7212
+-1.0835	ayam sembilan	-0.7212
+-1.0835	ayam sepuluh	-0.7212
+-1.0835	ayam setengah	-0.7447
+-1.0835	ayam tiga	-0.7212
+-1.0835	ayam tujuh	-0.7212
+-0.7825	batal ayam
+-0.7825	batal gulai
+-0.7825	batal ikan
+-0.7825	batal nasi
+-0.7825	batal rendang
+-0.7825	batal telur
+-0.0235	delapan </s>	+0.0000
+-0.0235	dua </s>	+0.0000
+-0.0235	empat </s>	+0.0000
+-0.0235	enam </s>	+0.0000
+-1.0835	gulai </s>	+0.0000
+-1.0835	gulai delapan	-0.7212
+-1.0835	gulai dua	-0.7212
+-1.0835	gulai empat	-0.7212
+-1.0835	gulai enam	-0.7212
+-1.0835	gulai lima	-0.7212
+-1.0835	gulai satu	-0.7212
+-1.0835	gulai sembilan	-0.7212
+-1.0835	gulai sepuluh	-0.7212
+-1.0835	gulai setengah	-0.7447
+-1.0835	gulai tiga	-0.7212
+-1.0835	gulai tujuh	-0.7212
+-1.0835	ikan </s>	+0.0000
+-1.0835	ikan delapan	-0.7212
+-1.0835	ikan dua	-0.7212
+-1.0835	ikan empat	-0.7212
+-1.0835	ikan enam	-0.7212
+-1.0835	ikan lima	-0.7212
+-1.0835	ikan satu	-0.7212
+-1.0835	ikan sembilan	-0.7212
+-1.0835	ikan sepuluh	-0.7212
+-1.0835	ikan setengah	-0.7447
+-1.0835	ikan tiga	-0.7212
+-1.0835	ikan tujuh	-0.7212
+-0.0235	lima </s>	+0.0000
+-1.0835	nasi </s>	+0.0000
+-1.0835	nasi delapan	-0.7212
+-1.0835	nasi dua	-0.7212
+-1.0835	nasi empat	-0.7212
+-1.0835	nasi enam	-0.7212
+-1.0835	nasi lima	-0.7212
+-1.0835	nasi satu	-0.7212
+-1.0835	nasi sembilan	-0.7212
+-1.0835	nasi sepuluh	-0.7212
+-1.0835	nasi setengah	-0.7447
+-1.0835	nasi tiga	-0.7212
+-1.0835	nasi tujuh	-0.7212
+-0.7825	pesan ayam
+-0.7825	pesan gulai
+-0.7825	pesan ikan
+-0.7825	pesan nasi
+-0.7825	pesan rendang
+-0.7825	pesan telur
+-0.0044	porsi </s>	+0.0000
+-1.0713	rendang </s>	+0.0000
+-1.0713	rendang delapan	-0.7212
+-1.0713	rendang dua	-0.7212
+-1.0713	rendang empat	-0.7212
+-1.0713	rendang enam	-0.7212
+-1.0713	rendang lima	-0.7212
+-1.0713	rendang satu	-0.7212
+-1.0713	rendang sembilan	-0.7212
+-1.0713	rendang sepuluh	-0.7212
+-1.2474	rendang setengah	-0.7447
+-1.0713	rendang tiga	-0.7212
+-1.0713	rendang tujuh	-0.7212
+-0.0235	satu </s>	+0.0000
+-0.0235	sembilan </s>	+0.0000
+-0.0235	sepuluh </s>	+0.0000
+-0.0248	setengah </s>	+0.0000
+-0.7825	tambah ayam
+-0.7825	tambah gulai
+-0.7825	tambah ikan
+-0.7825	tambah nasi
+-0.7825	tambah rendang
+-0.7825	tambah telur
+-1.0835	telur </s>	+0.0000
+-1.0835	telur delapan	-0.7212
+-1.0835	telur dua	-0.7212
+-1.0835	telur empat	-0.7212
+-1.0835	telur enam	-0.7212
+-1.0835	telur lima	-0.7212
+-1.0835	telur satu	-0.7212
+-1.0835	telur sembilan	-0.7212
+-1.0835	telur sepuluh	-0.7212
+-1.0835	telur setengah	-0.7447
+-1.0835	telur tiga	-0.7212
+-1.0835	telur tujuh	-0.7212
+-0.0235	tiga </s>	+0.0000
+-0.0235	tujuh </s>	+0.0000
+
+\3-grams:
+-0.5006	</s> <s> batal
+-2.0613	</s> <s> bayar
+-0.5067	</s> <s> pesan
+-0.5006	</s> <s> tambah
+-0.7825	<s> batal ayam
+-0.7825	<s> batal gulai
+-0.7825	<s> batal ikan
+-0.7825	<s> batal nasi
+-0.7825	<s> batal rendang
+-0.7825	<s> batal telur
+-0.7825	<s> pesan ayam
+-0.7825	<s> pesan gulai
+-0.7825	<s> pesan ikan
+-0.7825	<s> pesan nasi
+-0.7825	<s> pesan rendang
+-0.7825	<s> pesan telur
+-0.7825	<s> tambah ayam
+-0.7825	<s> tambah gulai
+-0.7825	<s> tambah ikan
+-0.7825	<s> tambah nasi
+-0.7825	<s> tambah rendang
+-0.7825	<s> tambah telur
+-0.0044	ayam </s> <s>
+-0.0044	ayam delapan </s>
+-0.0044	ayam dua </s>
+-0.0044	ayam empat </s>
+-0.0044	ayam enam </s>
+-0.0044	ayam lima </s>
+-0.0044	ayam satu </s>
+-0.0044	ayam sembilan </s>
+-0.0044	ayam sepuluh </s>
+-0.0044	ayam setengah </s>
+-0.0044	ayam tiga </s>
+-0.0044	ayam tujuh </s>
+-0.0044	delapan </s> <s>
+-0.0044	dua </s> <s>
+-0.0044	empat </s> <s>
+-0.0044	enam </s> <s>
+-0.0044	gulai </s> <s>
+-0.0044	gulai delapan </s>
+-0.0044	gulai dua </s>
+-0.0044	gulai empat </s>
+-0.0044	gulai enam </s>
+-0.0044	gulai lima </s>
+-0.0044	gulai satu </s>
+-0.0044	gulai sembilan </s>
+-0.0044	gulai sepuluh </s>
+-0.0044	gulai setengah </s>
+-0.0044	gulai tiga </s>
+-0.0044	gulai tujuh </s>
+-0.0044	ikan </s> <s>
+-0.0044	ikan delapan </s>
+-0.0044	ikan dua </s>
+-0.0044	ikan empat </s>
+-0.0044	ikan enam </s>
+-0.0044	ikan lima </s>
+-0.0044	ikan satu </s>
+-0.0044	ikan sembilan </s>
+-0.0044	ikan sepuluh </s>
+-0.0044	ikan setengah </s>
+-0.0044	ikan tiga </s>
+-0.0044	ikan tujuh </s>
+-0.0044	lima </s> <s>
+-0.0044	nasi </s> <s>
+-0.0044	nasi delapan </s>
+-0.0044	nasi dua </s>
+-0.0044	nasi empat </s>
+-0.0044	nasi enam </s>
+-0.0044	nasi lima </s>
+-0.0044	nasi satu </s>
+-0.0044	nasi sembilan </s>
+-0.0044	nasi sepuluh </s>
+-0.0044	nasi setengah </s>
+-0.0044	nasi tiga </s>
+-0.0044	nasi tujuh </s>
+-0.0044	porsi </s> <s>
+-0.0044	rendang </s> <s>
+-0.0044	rendang delapan </s>
+-0.0044	rendang dua </s>
+-0.0044	rendang empat </s>
+-0.0044	rendang enam </s>
+-0.0044	rendang lima </s>
+-0.0044	rendang satu </s>
+-0.0044	rendang sembilan </s>
+-0.0044	rendang sepuluh </s>
+-0.0044	rendang setengah </s>
+-0.0044	rendang tiga </s>
+-0.0044	rendang tujuh </s>
+-0.0044	satu </s> <s>
+-0.0044	sembilan </s> <s>
+-0.0044	sepuluh </s> <s>
+-0.0044	setengah </s> <s>
+-0.0044	telur </s> <s>
+-0.0044	telur delapan </s>
+-0.0044	telur dua </s>
+-0.0044	telur empat </s>
+-0.0044	telur enam </s>
+-0.0044	telur lima </s>
+-0.0044	telur satu </s>
+-0.0044	telur sembilan </s>
+-0.0044	telur sepuluh </s>
+-0.0044	telur setengah </s>
+-0.0044	telur tiga </s>
+-0.0044	telur tujuh </s>
+-0.0044	tiga </s> <s>
+-0.0044	tujuh </s> <s>
+
+\end\

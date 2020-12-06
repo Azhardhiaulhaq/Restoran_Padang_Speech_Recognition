@@ -1,0 +1,425 @@
+STAT: include config: julian.jconf
+STAT: jconf successfully finalized
+STAT: *** loading AM00 _default
+Stat: init_phmm: Reading in HMM definition
+Stat: rdhmmdef: ascii format HMM definition
+Stat: rdhmmdef: limit check passed
+Stat: check_hmm_restriction: an HMM with several arcs from initial state found: "sp"
+Stat: rdhmmdef: this HMM requires multipath handling at decoding
+Stat: rdhmmdef: no <SID> embedded
+Stat: rdhmmdef: assign SID by the order of appearance
+Stat: init_phmm: defined HMMs:    55
+Stat: init_phmm: loading ascii hmmlist
+Stat: init_phmm: logical names:   621 in HMMList
+Stat: init_phmm: base phones:    31 used in logical
+Stat: init_phmm: finished reading HMM definitions
+STAT: making pseudo bi/mono-phone for IW-triphone
+Stat: hmm_lookup: 208 pseudo phones are added to logical HMM list
+STAT: *** AM00 _default loaded
+STAT: *** loading LM00 _default
+Stat: init_voca: read 26 words
+Stat: init_ngram: reading in binary n-gram from ../../LanguageModel/lm_indonesia/generatedtrigram
+Stat: ngram_read_bin: file version: 5
+Stat: ngram_read_bin_v5: this is forward 3-gram file
+stat: ngram_read_bin_v5: reading 1-gram
+stat: ngram_read_bin_v5: reading 2-gram
+stat: ngram_read_bin_v5: reading 3-gram
+Stat: ngram_read_bin: making entry name index
+Stat: init_ngram: neither "<unk>" nor "<UNK>" was found, assuming close vocabulary LM
+Stat: init_ngram: finished reading n-gram
+Stat: init_ngram: mapping dictonary words to n-gram entries
+Stat: init_ngram: finished word-to-ngram mapping
+STAT: *** LM00 _default loaded
+STAT: ------
+STAT: All models are ready, go for final fusion
+STAT: [1] create MFCC extraction instance(s)
+STAT: *** create MFCC calculation modules from AM
+STAT: AM 0 _default: create a new module MFCC01
+STAT: 1 MFCC modules created
+STAT: [2] create recognition processing instance(s) with AM and LM
+STAT: composing recognizer instance SR00 _default (AM00 _default, LM00 _default)
+STAT: Building HMM lexicon tree
+STAT: lexicon size: 444 nodes
+STAT: coordination check passed
+STAT: make successor lists for unigram factoring
+STAT: done
+STAT:  1-gram factoring values has been pre-computed
+STAT: SR00 _default composed
+STAT: [3] initialize for acoustic HMM calculation
+Stat: outprob_init: state-level mixture PDFs, use calc_mix()
+Stat: addlog: generating addlog table (size = 1953 kB)
+Stat: addlog: addlog table generated
+STAT: [4] prepare MFCC storage(s)
+STAT: All init successfully done
+
+STAT: ###### initialize input device
+----------------------- System Information begin ---------------------
+JuliusLib rev.4.3.1 (fast)
+
+Engine specification:
+ -  Base setup   : fast
+ -  Supported LM : DFA, N-gram, Word
+ -  Extension    : NoPThread
+ -  Compiled by  : i686-w64-mingw32-gcc -O6 -fomit-frame-pointer
+
+------------------------------------------------------------
+Configuration of Modules
+
+ Number of defined modules: AM=1, LM=1, SR=1
+
+ Acoustic Model (with input parameter spec.):
+ - AM00 "_default"
+	hmmfilename=../../hmm15/hmmdefs
+	hmmmapfilename=../../tiedlist
+
+ Language Model:
+ - LM00 "_default"
+	vocabulary filename=../sample.dict
+	n-gram  filename=../../LanguageModel/lm_indonesia/generatedtrigram (binary format)
+
+ Recognizer:
+ - SR00 "_default" (AM00, LM00)
+
+------------------------------------------------------------
+Speech Analysis Module(s)
+
+[MFCC01]  for [AM00 _default]
+
+ Acoustic analysis condition:
+	       parameter = MFCC_0_D_N_Z (25 dim. from 12 cepstrum + c0, abs energy supressed with CMN)
+	sample frequency = 16000 Hz
+	   sample period =  625  (1 = 100ns)
+	     window size =  400 samples (25.0 ms)
+	     frame shift =  160 samples (10.0 ms)
+	    pre-emphasis = 0.97
+	    # filterbank = 24
+	   cepst. lifter = 22
+	      raw energy = False
+	energy normalize = False
+	    delta window = 2 frames (20.0 ms) around
+	     hi freq cut = OFF
+	     lo freq cut = OFF
+	 zero mean frame = OFF
+	       use power = OFF
+	             CVN = OFF
+	            VTLN = OFF
+
+    spectral subtraction = off
+
+ cep. mean normalization = yes, with per-utterance self mean
+ cep. var. normalization = no
+
+	 base setup from = Julius defaults
+
+------------------------------------------------------------
+Acoustic Model(s)
+
+[AM00 "_default"]
+
+ HMM Info:
+    55 models, 109 states, 109 mpdfs, 109 Gaussians are defined
+	      model type = context dependency handling ON
+      training parameter = MFCC_N_D_Z_0
+	   vector length = 25
+	number of stream = 1
+	     stream info = [0-24]
+	cov. matrix type = DIAGC
+	   duration type = NULLD
+	max mixture size = 1 Gaussians
+     max length of model = 5 states
+     logical base phones = 31
+       model skip trans. = exist, require multi-path handling
+      skippable models = sp (1 model(s))
+
+ AM Parameters:
+        Gaussian pruning = safe  (-gprune)
+  top N mixtures to calc = 2 / 0  (-tmix)
+    short pause HMM name = "sp" specified, "sp" applied (physical)  (-sp)
+  cross-word CD on pass1 = handle by approx. (use max. prob. of same LC)
+   sp transition penalty = -25.0
+
+------------------------------------------------------------
+Language Model(s)
+
+[LM00 "_default"] type=n-gram
+
+ N-gram info:
+	            spec = 3-gram, forward (left-to-right)
+	        OOV word = none (assume close vocabulary)
+	    wordset size = 26
+	  1-gram entries =         26  (  0.0 MB)
+	  2-gram entries =        107  (  0.0 MB) (82% are valid contexts)
+	  3-gram entries =        106  (  0.0 MB)
+	           pass1 = 2-gram in the forward n-gram
+
+ Vocabulary Info:
+        vocabulary size  = 26 words, 122 models
+        average word len = 4.7 models, 14.1 states
+       maximum state num = 24 nodes per word
+       transparent words = not exist
+       words under class = not exist
+
+ Parameters:
+	(-silhead)head sil word = 0: "<s> @0.000000 [<s>] sil(sil)"
+	(-siltail)tail sil word = 1: "</s> @0.000000 [</s>] sil(sil)"
+
+------------------------------------------------------------
+Recognizer(s)
+
+[SR00 "_default"]  AM00 "_default"  +  LM00 "_default"
+
+ Lexicon tree:
+	 total node num =    444
+	  root node num =     26
+	(24 hi-freq. words are separated from tree lexicon)
+	  leaf node num =     26
+	 fact. node num =     26
+
+ Inter-word N-gram cache: 
+	root node to be cached = 26 / 26 (isolated only)
+	word ends to be cached = 26 (all)
+	  max. allocation size = 0MB
+	(-lmp)  pass1 LM weight = 8.0  ins. penalty = -2.0
+	(-lmp2) pass2 LM weight = 8.0  ins. penalty = -2.0
+	(-transp)trans. penalty = +0.0 per word
+	(-cmalpha)CM alpha coef = 0.050000
+
+	 inter-word short pause = on (append "sp" for each word tail)
+	  sp transition penalty = -25.0
+ Search parameters: 
+	    multi-path handling = yes, multi-path mode enabled
+	(-b) trellis beam width = 444
+	(-bs)score pruning thres= disabled
+	(-n)search candidate num= 1
+	(-s)  search stack size = 500
+	(-m)    search overflow = after 2000 hypothesis poped
+	        2nd pass method = searching sentence, generating N-best
+	(-b2)  pass2 beam width = 1000
+	(-lookuprange)lookup range= 5  (tm-5 <= t <tm+5)
+	(-sb)2nd scan beamthres = -1000000.0 (in logscore)
+	(-n)        search till = 1 candidates found
+	(-output)    and output = 10 candidates out of above
+	 IWCD handling:
+	   1st pass: approximation (use max. prob. of same LC)
+	   2nd pass: loose (apply when hypo. is popped and scanned)
+	 factoring score: 1-gram prob. (statically assigned beforehand)
+	short pause segmentation = off
+	fall back on search fail = off, returns search failure
+
+------------------------------------------------------------
+Decoding algorithm:
+
+	1st pass input processing = buffered, batch
+	1st pass method = 1-best approx. generating indexed trellis
+	output word confidence measure based on search-time scores
+
+------------------------------------------------------------
+FrontEnd:
+
+ Input stream:
+	             input type = waveform
+	           input source = waveform file
+	          input filelist = wavlst
+	          sampling freq. = 16000 Hz required
+	         threaded A/D-in = not supported (live input may be dropped)
+	   zero frames stripping = on
+	         silence cutting = off
+	    long-term DC removal = off
+	    long-term DC removal = off
+	    level scaling factor = 1.00 (disabled)
+	      reject short input = off
+	      reject  long input = off
+
+----------------------- System Information end -----------------------
+
+Notice for feature extraction (01),
+	*************************************************************
+	* Cepstral mean normalization for batch decoding:           *
+	* per-utterance mean will be computed and applied.          *
+	*************************************************************
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test1.wav
+STAT: 117680 samples (7.36 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> pesan ayam pesan ayam enam tambah ayam enam </s>
+pass1_best_wordseq: <s> pesan ayam pesan ayam enam tambah ayam enam </s>
+pass1_best_phonemeseq: sil | p e s a n | a y a m | p e s a n | a y a m | e n a m | t a m b a h | a y a m | e n a m | sil
+pass1_best_score: -18008.775391
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 734
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test2.wav
+STAT: 64880 samples (4.05 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> pesan telur enam </s>
+pass1_best_wordseq: <s> pesan telur enam </s>
+pass1_best_phonemeseq: sil | p e s a n | t e l u r | e n a m | sil
+pass1_best_score: -9334.322266
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 404
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test3.wav
+STAT: 184400 samples (11.53 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> batal telur telur ayam gulai enam nasi telur ayam bayar nasi rendang </s>
+pass1_best_wordseq: <s> batal telur telur ayam gulai enam nasi telur ayam bayar nasi rendang </s>
+pass1_best_phonemeseq: sil | b a t a l | t e l u r | t e l u r | a y a m | g u l ai | e n a m | n a s i | t e l u r | a y a m | b a y a r | n a s i | r e n d a ng | sil
+pass1_best_score: -30621.943359
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 1151
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test4.wav
+STAT: 201440 samples (12.59 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> tambah ikan gulai bayar ikan gulai telur bayar nasi nasi gulai gulai enam gulai gulai empat </s>
+pass1_best_wordseq: <s> tambah ikan gulai bayar ikan gulai telur bayar nasi nasi gulai gulai enam gulai gulai empat </s>
+pass1_best_phonemeseq: sil | t a m b a h | i k a n | g u l ai | b a y a r | i k a n | g u l ai | t e l u r | b a y a r | n a s i | n a s i | g u l ai | g u l ai | e n a m | g u l ai | g u l ai | e m p a t | sil
+pass1_best_score: -34458.414063
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 1257
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test5.wav
+STAT: 55356 samples (3.46 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> batal ikan delapan </s>
+pass1_best_wordseq: <s> batal ikan delapan </s>
+pass1_best_phonemeseq: sil | b a t a l | i k a n | d e l a p a n | sil
+pass1_best_score: -7907.570801
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 344
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test6.wav
+STAT: 41982 samples (2.62 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> rendang lima </s>
+pass1_best_wordseq: <s> rendang lima </s>
+pass1_best_phonemeseq: sil | r e n d a ng | l i m a | sil
+pass1_best_score: -5999.578613
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 260
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test7.wav
+Warning: strip: sample 0-1412 has zero value, stripped
+STAT: 31281 samples (1.96 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> bayar satu </s>
+pass1_best_wordseq: <s> bayar satu </s>
+pass1_best_phonemeseq: sil | b a y a r | s a t u | sil
+pass1_best_score: -4761.966309
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 194
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test8.wav
+Warning: strip: sample 0-1412 has zero value, stripped
+STAT: 42426 samples (2.65 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> pesan nasi delapan </s>
+pass1_best_wordseq: <s> pesan nasi delapan </s>
+pass1_best_phonemeseq: sil | p e s a n | n a s i | d e l a p a n | sil
+pass1_best_score: -6534.300781
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 263
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test9.wav
+STAT: 43468 samples (2.72 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> batal nasi </s>
+pass1_best_wordseq: <s> batal nasi </s>
+pass1_best_phonemeseq: sil | b a t a l | n a s i | sil
+pass1_best_score: -8414.529297
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 270
+<search failed>
+
+
+------
+### read waveform input
+Stat: adin_file: input speechfile: ../wav/test10.wav
+Warning: strip: sample 39018-42538 is invalid, stripped
+STAT: 39018 samples (2.44 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> pesan ayam delapan nasi </s>
+pass1_best_wordseq: <s> pesan ayam delapan nasi </s>
+pass1_best_phonemeseq: sil | p e s a n | a y a m | d e l a p a n | n a s i | sil
+pass1_best_score: -7648.801270
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: 00 _default: hypothesis stack exhausted, terminate search now
+STAT: 00 _default: 0 sentences have been found
+WARNING: 00 _default: got no candidates, search failed
+STAT: 00 _default: 1 generated, 1 pushed, 1 nodes popped in 242
+<search failed>
+
+
+------
+### read waveform input

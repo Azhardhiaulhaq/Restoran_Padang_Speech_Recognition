@@ -1,8 +1,0 @@
-<s> pesan ayam ayam rendang ayam rendang </s>
-<s> pesan telur enam </s>
-<s> batal telur telur ayam gulai rendang nasi telur ayam ayam nasi rendang </s>
-<s> tambah ikan gulai ayam ikan ayam gulai telur ayam nasi nasi gulai gulai rendang gulai gulai </s>
-<s> bayar kartu </s>
-<s> pesan nasi lima </s>
-<s> batal ayam delapan porsi </s>
-<s> pesan ayam delapan porsi </s>
