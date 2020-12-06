@@ -17,13 +17,8 @@ STAT: making pseudo bi/mono-phone for IW-triphone
 Stat: hmm_lookup: 230 pseudo phones are added to logical HMM list
 STAT: *** AM00 _default loaded
 STAT: *** loading LM00 _default
-Error: voca_load_htkdict: line 21: triphone "*-e+n" or biphone "e+n" not found
-Error: voca_load_htkdict: line 21: triphone "e-n+a" not found
-Error: voca_load_htkdict: the line content was: [enam]   e n a m
-Error: voca_load_htkdict: begin missing phones
-Error: voca_load_htkdict: *-e+n or biphone e+n
-Error: voca_load_htkdict: e-n+a
-Error: voca_load_htkdict: end missing phones
-Error: init_voca: error in reading ../sample.dict: 1 words failed out of 25 words
-ERROR: m_fusion: failed to read dictionary, terminated
-ERROR: m_fusion: failed to initialize dictionary
+Stat: init_voca: read 26 words
+Stat: init_ngram: reading in binary n-gram from ../../LanguageModel/lm_indonesia/bigram
+Error: ngram_read_bin: invalid header
+Error: init_ngram: failed to read "../../LanguageModel/lm_indonesia/bigram"
+ERROR: m_fusion: failed to initialize N-gram

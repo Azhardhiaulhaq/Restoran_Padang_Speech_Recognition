@@ -1,0 +1,32 @@
+\data\
+ngram 1=26
+
+\1-grams:
+-0.6007	</s>
+-99.9900	<s>
+-1.3052	ayam
+-1.1022	batal
+-2.5001	bayar
+-1.6550	delapan
+-1.6985	dua
+-1.6985	empat
+-1.6762	enam
+-1.3438	gulai
+-1.3862	ikan
+-2.6762	kartu
+-1.6550	lima
+-1.3645	nasi
+-1.0965	pesan
+-1.8311	porsi
+-1.3645	rendang
+-1.6985	satu
+-1.6985	sembilan
+-1.6985	sepuluh
+-1.7220	setengah
+-1.1080	tambah
+-1.3540	telur
+-1.6985	tiga
+-1.6985	tujuh
+-2.9773	tunai
+
+\end\

@@ -6,3 +6,5 @@
 <s> pesan nasi lima </s>
 <s> batal ayam delapan porsi </s>
 <s> pesan ayam delapan porsi </s>
+<s> batal ikan lima porsi </s> 
+<s> tambah telur rendang </s>

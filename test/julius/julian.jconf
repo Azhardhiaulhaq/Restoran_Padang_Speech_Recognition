@@ -61,7 +61,7 @@
 ##
 ## word insertion penalty
 ##
--d ../../LanguageModel/lm_indonesia/ug
+-d ../../LanguageModel/lm_indonesia/unigramnew
 #-penalty1 5.0		# first pass
 #-penalty2 20.0		# second pass
 
