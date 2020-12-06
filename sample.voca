@@ -5,7 +5,7 @@
 </s> sil
 
 % LOOKUP
-pesan p @ s a n
+pesan p e s a n
 batal b a t a l
 tambah t a m b a h
 
@@ -18,24 +18,24 @@ kartu k a r t u
 
 % FOOD
 nasi n a s i
-rendang r @ n d a ng
+rendang r e n d a ng
 gulai g u l ai
 ayam a y a m
 ikan i k a n
-telur t @ l u r
+telur t e l u r
 
 % QUANTITY 
-setengah s @ t @ ng a h
+setengah s e t e ng a h
 satu s a t u
 dua d u a
 tiga t i g a
-empat @ m p a t
+empat e m p a t
 lima l i m a
-enam @ n a m
+enam e n a m
 tujuh t u j u h
-delapan d @ l a p a n
-sembilan s @ m b i l a n
-sepuluh s @ p u l u h
+delapan d e l a p a n
+sembilan s e m b i l a n
+sepuluh s e p u l u h
 
 % PORTION
 porsi p o r s i
