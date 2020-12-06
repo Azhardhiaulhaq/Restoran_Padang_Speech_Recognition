@@ -13,188 +13,188 @@ HTK Configuration Parameters[10]
 #                 TARGETRATE         100000.000000
 #                 TARGETKIND          MFCC_0_D_N_Z
 
-Read 32 physical / 32 logical HMMs
+Read 31 physical / 31 logical HMMs
 Label file will be used to align each file
 Aligning File: train/mfcc/sample1.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END pesan nasi goreng ikan bakar gulai rendang telur SENT-END  ==  [651 frames] -61.6738 [Ac=-40149.6 LM=0.0] (Act=11.1)
+SENT-END pesan nasi goreng ikan bakar gulai rendang telur SENT-END  ==  [651 frames] -61.8264 [Ac=-40249.0 LM=0.0] (Act=11.6)
 Aligning File: train/mfcc/sample2.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END pesan ayam bakar ayam balado batal nasi rendang SENT-END  ==  [918 frames] -55.1799 [Ac=-50655.2 LM=0.0] (Act=14.0)
+SENT-END pesan ayam bakar ayam balado batal nasi rendang SENT-END  ==  [918 frames] -55.3168 [Ac=-50780.8 LM=0.0] (Act=14.7)
 Aligning File: train/mfcc/sample3.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END batal ikan ayam telur balado pesan nasi gulai SENT-END  ==  [717 frames] -64.1031 [Ac=-45961.9 LM=0.0] (Act=11.5)
+SENT-END batal ikan ayam telur balado pesan nasi gulai SENT-END  ==  [717 frames] -64.2820 [Ac=-46090.2 LM=0.0] (Act=11.8)
 Aligning File: train/mfcc/sample4.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END tambah nasi gulai rendang ikan bakar ayam balado SENT-END  ==  [683 frames] -53.3113 [Ac=-36411.6 LM=0.0] (Act=14.8)
+SENT-END tambah nasi gulai rendang ikan bakar ayam balado SENT-END  ==  [683 frames] -53.4228 [Ac=-36487.8 LM=0.0] (Act=15.2)
 Aligning File: train/mfcc/sample5.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END tambah ayam pop bakar balado goreng pesan nasi SENT-END  ==  [683 frames] -60.8985 [Ac=-41593.7 LM=0.0] (Act=11.9)
+SENT-END tambah ayam pop bakar balado goreng pesan nasi SENT-END  ==  [683 frames] -60.8021 [Ac=-41527.8 LM=0.0] (Act=12.1)
 Aligning File: train/mfcc/sample6.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END bayar tunai bayar kartu bayar nasi ayam balado SENT-END  ==  [896 frames] -55.4633 [Ac=-49695.1 LM=0.0] (Act=12.9)
+SENT-END bayar tunai bayar kartu bayar nasi ayam balado SENT-END  ==  [896 frames] -55.4643 [Ac=-49696.0 LM=0.0] (Act=12.9)
 Aligning File: train/mfcc/sample7.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END bayar tunai kartu tambah kartu tunai pesan kartu SENT-END  ==  [789 frames] -63.5465 [Ac=-50138.2 LM=0.0] (Act=10.6)
+SENT-END bayar tunai kartu tambah kartu tunai pesan kartu SENT-END  ==  [789 frames] -63.5887 [Ac=-50171.5 LM=0.0] (Act=11.0)
 Aligning File: train/mfcc/sample8.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END pesan kartu tambah tunai pesan nasi tambah rendang SENT-END  ==  [650 frames] -52.9392 [Ac=-34410.5 LM=0.0] (Act=13.1)
+SENT-END pesan kartu tambah tunai pesan nasi tambah rendang SENT-END  ==  [650 frames] -53.0241 [Ac=-34465.7 LM=0.0] (Act=13.7)
 Aligning File: train/mfcc/sample9.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END telur pop ayam pop ikan pop rendang pop SENT-END  ==  [599 frames] -61.0637 [Ac=-36577.2 LM=0.0] (Act=12.7)
+SENT-END telur pop ayam pop ikan pop rendang pop SENT-END  ==  [599 frames] -61.1049 [Ac=-36601.9 LM=0.0] (Act=12.6)
 Aligning File: train/mfcc/sample10.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END bayar balado tambah goreng pesan bakar batal balado SENT-END  ==  [882 frames] -55.2335 [Ac=-48715.9 LM=0.0] (Act=13.7)
+SENT-END bayar balado tambah goreng pesan bakar batal balado SENT-END  ==  [882 frames] -55.4205 [Ac=-48880.9 LM=0.0] (Act=14.5)
 Aligning File: train/mfcc/sample11.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END gemulai tapi maki adi bakti kami abadi kaukasoid SENT-END  ==  [1038 frames] -62.9191 [Ac=-65310.0 LM=0.0] (Act=12.9)
+SENT-END gemulai tapi maki adi bakti kami abadi kaukasoid SENT-END  ==  [1038 frames] -62.9766 [Ac=-65369.8 LM=0.0] (Act=13.3)
 Aligning File: train/mfcc/sample12.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END gali pantai petis betis sadis waktu yoyo musyawarah SENT-END  ==  [676 frames] -54.7356 [Ac=-37001.3 LM=0.0] (Act=12.6)
+SENT-END gali pantai petis betis sadis waktu yoyo musyawarah SENT-END  ==  [676 frames] -54.8398 [Ac=-37071.7 LM=0.0] (Act=12.8)
 Aligning File: train/mfcc/sample13.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END mau cacing pita waktu bandung badai badui heroin SENT-END  ==  [687 frames] -62.0407 [Ac=-42621.9 LM=0.0] (Act=11.7)
+SENT-END mau cacing pita waktu bandung badai badui heroin SENT-END  ==  [687 frames] -62.0037 [Ac=-42596.5 LM=0.0] (Act=11.9)
 Aligning File: train/mfcc/sample14.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END gajah gading gudang gaung awas nyiur nyanyi konvoi SENT-END  ==  [951 frames] -55.3675 [Ac=-52654.5 LM=0.0] (Act=13.1)
+SENT-END gajah gading gudang gaung awas nyiur nyanyi konvoi SENT-END  ==  [951 frames] -55.1861 [Ac=-52481.9 LM=0.0] (Act=13.1)
 Aligning File: train/mfcc/sample15.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END kemana cicak kita dadu fasih toilet udara eja SENT-END  ==  [1017 frames] -61.5123 [Ac=-62558.0 LM=0.0] (Act=12.0)
+SENT-END kemana cicak kita dadu fasih toilet udara eja SENT-END  ==  [1017 frames] -61.5300 [Ac=-62576.0 LM=0.0] (Act=12.5)
 Aligning File: train/mfcc/sample16.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END zaitun optik cekal syarat danau kalau naufal koi domba SENT-END  ==  [717 frames] -53.6212 [Ac=-38446.4 LM=0.0] (Act=13.5)
+SENT-END zaitun optik cekal syarat danau kalau naufal koi domba SENT-END  ==  [717 frames] -53.5583 [Ac=-38401.3 LM=0.0] (Act=12.9)
 Aligning File: train/mfcc/sample17.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END kain katun masyarakat sambal walau jika wahai dahan daun SENT-END  ==  [843 frames] -61.7769 [Ac=-52077.9 LM=0.0] (Act=11.6)
+SENT-END kain katun masyarakat sambal walau jika wahai dahan daun SENT-END  ==  [843 frames] -61.7013 [Ac=-52014.2 LM=0.0] (Act=11.4)
 Aligning File: train/mfcc/sample18.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END hadiah ulang tahun kamu waktu umur lima belas SENT-END  ==  [977 frames] -55.4593 [Ac=-54183.8 LM=0.0] (Act=14.1)
+SENT-END hadiah ulang tahun kamu waktu umur lima belas SENT-END  ==  [977 frames] -55.4840 [Ac=-54207.9 LM=0.0] (Act=12.2)
 Aligning File: train/mfcc/sample19.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END maaf saya terlambat datang ke kantor jalan macet SENT-END  ==  [846 frames] -62.6473 [Ac=-52999.6 LM=0.0] (Act=17.3)
+SENT-END maaf saya terlambat datang ke kantor jalan macet SENT-END  ==  [846 frames] -62.7491 [Ac=-53085.8 LM=0.0] (Act=17.2)
 Aligning File: train/mfcc/sample20.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END tibet tolong hutang ranting asyik cicak racun curang lemah SENT-END  ==  [740 frames] -53.6792 [Ac=-39722.6 LM=0.0] (Act=13.2)
+SENT-END tibet tolong hutang ranting asyik cicak racun curang lemah SENT-END  ==  [740 frames] -53.9105 [Ac=-39893.8 LM=0.0] (Act=13.8)
 Aligning File: train/mfcc/sample21.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END pesan tambah pesan bayar batal tambah batal bayar SENT-END  ==  [660 frames] -61.3567 [Ac=-40495.4 LM=0.0] (Act=11.9)
+SENT-END pesan tambah pesan bayar batal tambah batal bayar SENT-END  ==  [660 frames] -61.4343 [Ac=-40546.6 LM=0.0] (Act=11.7)
 Aligning File: train/mfcc/sample22.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END bayar batal tunai batal bayar tambah tunai tambah SENT-END  ==  [942 frames] -54.6484 [Ac=-51478.8 LM=0.0] (Act=15.2)
+SENT-END bayar batal tunai batal bayar tambah tunai tambah SENT-END  ==  [942 frames] -54.8120 [Ac=-51632.9 LM=0.0] (Act=15.9)
 Aligning File: train/mfcc/sample23.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END tambah tambah tunai kartu bayar bayar tunai kartu SENT-END  ==  [881 frames] -61.1952 [Ac=-53913.0 LM=0.0] (Act=13.3)
+SENT-END tambah tambah tunai kartu bayar bayar tunai kartu SENT-END  ==  [881 frames] -61.0760 [Ac=-53807.9 LM=0.0] (Act=13.2)
 Aligning File: train/mfcc/sample24.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END kartu nasi bayar bayar kartu nasi tunai tunai SENT-END  ==  [640 frames] -55.1340 [Ac=-35285.8 LM=0.0] (Act=12.9)
+SENT-END kartu nasi bayar bayar kartu nasi tunai tunai SENT-END  ==  [640 frames] -55.2273 [Ac=-35345.5 LM=0.0] (Act=13.1)
 Aligning File: train/mfcc/sample25.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END tunai tunai kartu kartu nasi nasi rendang rendang SENT-END  ==  [663 frames] -62.3698 [Ac=-41351.2 LM=0.0] (Act=13.3)
+SENT-END tunai tunai kartu kartu nasi nasi rendang rendang SENT-END  ==  [663 frames] -62.4904 [Ac=-41431.1 LM=0.0] (Act=13.4)
 Aligning File: train/mfcc/sample26.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END gulai ikan gulai telur ayam ikan ayam telur SENT-END  ==  [955 frames] -55.4228 [Ac=-52928.8 LM=0.0] (Act=14.5)
+SENT-END gulai ikan gulai telur ayam ikan ayam telur SENT-END  ==  [955 frames] -55.4079 [Ac=-52914.6 LM=0.0] (Act=14.6)
 Aligning File: train/mfcc/sample27.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END telur ayam goreng ayam telur ikan goreng ikan SENT-END  ==  [960 frames] -60.5604 [Ac=-58138.0 LM=0.0] (Act=11.1)
+SENT-END telur ayam goreng ayam telur ikan goreng ikan SENT-END  ==  [960 frames] -60.5819 [Ac=-58158.7 LM=0.0] (Act=12.9)
 Aligning File: train/mfcc/sample28.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END ikan ikan goreng bakar telur telur goreng bakar SENT-END  ==  [680 frames] -52.1974 [Ac=-35494.3 LM=0.0] (Act=14.6)
+SENT-END ikan ikan goreng bakar telur telur goreng bakar SENT-END  ==  [680 frames] -52.4883 [Ac=-35692.1 LM=0.0] (Act=15.2)
 Aligning File: train/mfcc/sample29.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END bakar pop telur telur bakar pop goreng goreng SENT-END  ==  [603 frames] -60.7566 [Ac=-36636.2 LM=0.0] (Act=11.9)
+SENT-END bakar pop telur telur bakar pop goreng goreng SENT-END  ==  [603 frames] -60.7641 [Ac=-36640.8 LM=0.0] (Act=12.0)
 Aligning File: train/mfcc/sample30.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END goreng goreng bakar bakar pop pop balado balado SENT-END  ==  [906 frames] -54.2348 [Ac=-49136.8 LM=0.0] (Act=15.8)
+SENT-END goreng goreng bakar bakar pop pop balado balado SENT-END  ==  [906 frames] -54.3840 [Ac=-49271.9 LM=0.0] (Act=18.3)
 Aligning File: train/mfcc/sample31.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END beli satu gratis satu sayang satu punya satu SENT-END  ==  [864 frames] -62.6196 [Ac=-54103.4 LM=0.0] (Act=15.3)
+SENT-END beli satu gratis satu sayang satu punya satu SENT-END  ==  [864 frames] -62.2968 [Ac=-53824.5 LM=0.0] (Act=11.8)
 Aligning File: train/mfcc/sample32.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END obat batuk terbaik di pulau jawa papua kalimantan dewan SENT-END  ==  [865 frames] -52.0905 [Ac=-45058.2 LM=0.0] (Act=13.6)
+SENT-END obat batuk terbaik di pulau jawa papua kalimantan dewan SENT-END  ==  [865 frames] -52.1682 [Ac=-45125.5 LM=0.0] (Act=13.9)
 Aligning File: train/mfcc/sample33.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END lempar batu sembunyi tangan buang muka takut sekali SENT-END  ==  [660 frames] -61.9253 [Ac=-40870.7 LM=0.0] (Act=12.6)
+SENT-END lempar batu sembunyi tangan buang muka takut sekali SENT-END  ==  [660 frames] -61.9393 [Ac=-40879.9 LM=0.0] (Act=12.5)
 Aligning File: train/mfcc/sample34.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END pelangi warna warni merah putih kelabu hitam coklat merah SENT-END  ==  [1115 frames] -55.0033 [Ac=-61328.6 LM=0.0] (Act=16.2)
+SENT-END pelangi warna warni merah putih kelabu hitam coklat merah SENT-END  ==  [1115 frames] -55.0270 [Ac=-61355.2 LM=0.0] (Act=13.0)
 Aligning File: train/mfcc/sample35.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END uang orang miris melati ombak pelepah lalu angin yeremia SENT-END  ==  [861 frames] -65.7546 [Ac=-56614.7 LM=0.0] (Act=12.4)
+SENT-END uang orang miris melati ombak pelepah lalu angin yeremia SENT-END  ==  [861 frames] -65.7382 [Ac=-56600.6 LM=0.0] (Act=13.3)
 Aligning File: train/mfcc/sample36.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END kelapa kepala domba didik tangis tembak tolak tembok SENT-END  ==  [770 frames] -51.3551 [Ac=-39543.4 LM=0.0] (Act=15.4)
+SENT-END kelapa kepala domba didik tangis tembak tolak tembok SENT-END  ==  [770 frames] -51.1769 [Ac=-39406.3 LM=0.0] (Act=14.7)
 Aligning File: train/mfcc/sample37.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END tuai tombak gelombang gila gaya awan sorak serang amboi SENT-END  ==  [740 frames] -62.0635 [Ac=-45927.0 LM=0.0] (Act=12.1)
+SENT-END tuai tombak gelombang gila gaya awan sorak serang amboi SENT-END  ==  [740 frames] -62.1739 [Ac=-46008.7 LM=0.0] (Act=12.4)
 Aligning File: train/mfcc/sample38.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END aisyah aura aloi aurat bau zebra fasih faktor fanatik SENT-END  ==  [1103 frames] -56.4601 [Ac=-62275.5 LM=0.0] (Act=14.3)
+SENT-END aisyah aura aloi aurat bau zebra fasih faktor fanatik SENT-END  ==  [1103 frames] -56.1687 [Ac=-61954.0 LM=0.0] (Act=14.2)
 Aligning File: train/mfcc/sample39.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END azhar gama hakim hina ajaib sungai kotor toilet SENT-END  ==  [849 frames] -63.4094 [Ac=-53834.6 LM=0.0] (Act=15.1)
+SENT-END azhar gama hakim hina ajaib sungai kotor toilet SENT-END  ==  [849 frames] -63.4012 [Ac=-53827.6 LM=0.0] (Act=14.8)
 Aligning File: train/mfcc/sample40.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END naufal singa harimau mau lalu koi bebek bali malang SENT-END  ==  [732 frames] -53.5999 [Ac=-39235.1 LM=0.0] (Act=16.8)
+SENT-END naufal singa harimau mau lalu koi bebek bali malang SENT-END  ==  [732 frames] -53.6949 [Ac=-39304.6 LM=0.0] (Act=16.5)
 Aligning File: train/mfcc/sample41.mfc
 Created lattice with 9 nodes / 8 arcs from label file
-SENT-END pesan nasi rendang gulai ayam bayar tunai SENT-END  ==  [792 frames] -52.3562 [Ac=-41466.1 LM=0.0] (Act=15.1)
+SENT-END pesan nasi rendang gulai ayam bayar tunai SENT-END  ==  [792 frames] -52.4126 [Ac=-41510.7 LM=0.0] (Act=15.3)
 Aligning File: train/mfcc/sample42.mfc
 Created lattice with 9 nodes / 8 arcs from label file
-SENT-END tambah ikan bakar balado nasi gulai ayam SENT-END  ==  [829 frames] -52.1117 [Ac=-43200.6 LM=0.0] (Act=13.3)
+SENT-END tambah ikan bakar balado nasi gulai ayam SENT-END  ==  [829 frames] -52.1965 [Ac=-43270.9 LM=0.0] (Act=13.7)
 Aligning File: train/mfcc/sample43.mfc
 Created lattice with 9 nodes / 8 arcs from label file
-SENT-END nyonya beli sate padang tambah perkedel dua SENT-END  ==  [834 frames] -52.9259 [Ac=-44140.2 LM=0.0] (Act=16.6)
+SENT-END nyonya beli sate padang tambah perkedel dua SENT-END  ==  [834 frames] -53.1870 [Ac=-44357.9 LM=0.0] (Act=17.1)
 Aligning File: train/mfcc/sample44.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END satu dua tiga empat lima enam tujuh delapan SENT-END  ==  [945 frames] -52.1778 [Ac=-49308.0 LM=0.0] (Act=16.8)
+SENT-END satu dua tiga empat lima enam tujuh delapan SENT-END  ==  [945 frames] -52.2176 [Ac=-49345.7 LM=0.0] (Act=19.1)
 Aligning File: train/mfcc/sample45.mfc
 Created lattice with 9 nodes / 8 arcs from label file
-SENT-END sembilan sepuluh sebelas belas puluh ratus ribu SENT-END  ==  [899 frames] -52.9509 [Ac=-47602.8 LM=0.0] (Act=13.5)
+SENT-END sembilan sepuluh sebelas belas puluh ratus ribu SENT-END  ==  [899 frames] -52.9372 [Ac=-47590.5 LM=0.0] (Act=12.2)
 Aligning File: train/mfcc/sample46.mfc
 Created lattice with 9 nodes / 8 arcs from label file
-SENT-END seratus seribu sejuta semiliar juta miliar rupiah SENT-END  ==  [913 frames] -56.0518 [Ac=-51175.3 LM=0.0] (Act=18.8)
+SENT-END seratus seribu sejuta semiliar juta miliar rupiah SENT-END  ==  [913 frames] -55.8088 [Ac=-50953.4 LM=0.0] (Act=14.7)
 Aligning File: train/mfcc/sample47.mfc
 Created lattice with 8 nodes / 7 arcs from label file
-SENT-END batal nasi gulai ayam bayar kartu SENT-END  ==  [778 frames] -53.3660 [Ac=-41518.7 LM=0.0] (Act=10.7)
+SENT-END batal nasi gulai ayam bayar kartu SENT-END  ==  [778 frames] -53.3550 [Ac=-41510.2 LM=0.0] (Act=10.6)
 Aligning File: train/mfcc/sample48.mfc
 Created lattice with 14 nodes / 13 arcs from label file
-SENT-END pesan nasi goreng ayam pop telur balado batal gulai ikan bayar kartu SENT-END  ==  [1340 frames] -52.4026 [Ac=-70219.5 LM=0.0] (Act=14.5)
+SENT-END pesan nasi goreng ayam pop telur balado batal gulai ikan bayar kartu SENT-END  ==  [1340 frames] -52.4886 [Ac=-70334.7 LM=0.0] (Act=14.7)
 Aligning File: train/mfcc/sample49.mfc
 Created lattice with 12 nodes / 11 arcs from label file
-SENT-END tambah rendang goreng ikan ayam pop ikan bakar bayar tunai SENT-END  ==  [1085 frames] -52.2354 [Ac=-56675.4 LM=0.0] (Act=15.6)
+SENT-END tambah rendang goreng ikan ayam pop ikan bakar bayar tunai SENT-END  ==  [1085 frames] -52.4335 [Ac=-56890.3 LM=0.0] (Act=19.4)
 Aligning File: train/mfcc/sample50.mfc
 Created lattice with 9 nodes / 8 arcs from label file
-SENT-END pesan nasi goreng tambah rendang bayar tunai SENT-END  ==  [783 frames] -52.7911 [Ac=-41335.4 LM=0.0] (Act=12.9)
+SENT-END pesan nasi goreng tambah rendang bayar tunai SENT-END  ==  [783 frames] -52.9102 [Ac=-41428.7 LM=0.0] (Act=13.2)
 Aligning File: train/mfcc/sample51.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END pesan nasi setengah rendang tiga ayam tujuh telur lima SENT-END  ==  [922 frames] -56.0485 [Ac=-51676.7 LM=0.0] (Act=18.4)
+SENT-END pesan nasi setengah rendang tiga ayam tujuh telur lima SENT-END  ==  [922 frames] -56.0666 [Ac=-51693.4 LM=0.0] (Act=18.4)
 Aligning File: train/mfcc/sample52.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END tambah nasi setengah ayam dua rendang empat telur delapan SENT-END  ==  [983 frames] -54.8436 [Ac=-53911.2 LM=0.0] (Act=18.7)
+SENT-END tambah nasi setengah ayam dua rendang empat telur delapan SENT-END  ==  [983 frames] -54.8869 [Ac=-53953.8 LM=0.0] (Act=18.9)
 Aligning File: train/mfcc/sample53.mfc
 Created lattice with 12 nodes / 11 arcs from label file
-SENT-END tambah nasi tiga porsi pesan ayam dua pesan ikan tiga SENT-END  ==  [813 frames] -51.5658 [Ac=-41923.0 LM=0.0] (Act=12.9)
+SENT-END tambah nasi tiga porsi pesan ayam dua pesan ikan tiga SENT-END  ==  [813 frames] -51.7216 [Ac=-42049.7 LM=0.0] (Act=13.3)
 Aligning File: train/mfcc/sample54.mfc
 Created lattice with 12 nodes / 11 arcs from label file
-SENT-END pesan ayam sepuluh bayar tunai pesan rendang setengah bayar kartu SENT-END  ==  [779 frames] -52.3262 [Ac=-40762.1 LM=0.0] (Act=13.3)
+SENT-END pesan ayam sepuluh bayar tunai pesan rendang setengah bayar kartu SENT-END  ==  [779 frames] -52.3875 [Ac=-40809.9 LM=0.0] (Act=13.8)
 Aligning File: train/mfcc/sample55.mfc
 Created lattice with 13 nodes / 12 arcs from label file
-SENT-END satu dua tiga empat lima enam tujuh delapan sembilan sepuluh setengah SENT-END  ==  [1334 frames] -55.8797 [Ac=-74543.6 LM=0.0] (Act=14.4)
+SENT-END satu dua tiga empat lima enam tujuh delapan sembilan sepuluh setengah SENT-END  ==  [1334 frames] -55.8846 [Ac=-74550.1 LM=0.0] (Act=14.3)
 Aligning File: train/mfcc/sample56.mfc
 Created lattice with 10 nodes / 9 arcs from label file
-SENT-END pesan telur dua porsi rendang lima ayam tiga SENT-END  ==  [950 frames] -56.7805 [Ac=-53941.5 LM=0.0] (Act=12.8)
+SENT-END pesan telur dua porsi rendang lima ayam tiga SENT-END  ==  [950 frames] -56.7680 [Ac=-53929.6 LM=0.0] (Act=12.8)
 Aligning File: train/mfcc/sample57.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END dua empat lima enam tujuh pesan rendang porsi setengah SENT-END  ==  [636 frames] -62.6147 [Ac=-39822.9 LM=0.0] (Act=13.2)
+SENT-END dua empat lima enam tujuh pesan rendang porsi setengah SENT-END  ==  [636 frames] -62.8623 [Ac=-39980.4 LM=0.0] (Act=13.5)
 Aligning File: train/mfcc/sample58.mfc
 Created lattice with 11 nodes / 10 arcs from label file
-SENT-END pesan bayar batal dua satu tiga gulai porsi enam SENT-END  ==  [675 frames] -60.3657 [Ac=-40746.8 LM=0.0] (Act=13.1)
+SENT-END pesan bayar batal dua satu tiga gulai porsi enam SENT-END  ==  [675 frames] -60.5231 [Ac=-40853.1 LM=0.0] (Act=13.5)
 Aligning File: train/mfcc/sample59.mfc
 Created lattice with 14 nodes / 13 arcs from label file
-SENT-END pesan tambah tunai nasi gulai ikan setengah dua empat enam delapan sepuluh SENT-END  ==  [949 frames] -62.3907 [Ac=-59208.7 LM=0.0] (Act=13.2)
+SENT-END pesan tambah tunai nasi gulai ikan setengah dua empat enam delapan sepuluh SENT-END  ==  [949 frames] -62.4761 [Ac=-59289.8 LM=0.0] (Act=13.2)
 Aligning File: train/mfcc/sample60.mfc
 Created lattice with 13 nodes / 12 arcs from label file
-SENT-END batal bayar kartu rendang ayam telur satu tiga lima tujuh sembilan SENT-END  ==  [919 frames] -62.0450 [Ac=-57019.4 LM=0.0] (Act=13.4)
+SENT-END batal bayar kartu rendang ayam telur satu tiga lima tujuh sembilan SENT-END  ==  [919 frames] -62.1654 [Ac=-57130.0 LM=0.0] (Act=13.4)
 
 HTK Configuration Parameters[10]
   Module/Tool     Parameter                  Value
