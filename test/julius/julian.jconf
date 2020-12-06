@@ -33,7 +33,7 @@
 #-gramlist file
 
 #### (3) Classic way to specify a grammar.
-#-dfa ../sample.dfa
+-dfa ../sample.dfa
 -v ../sample.dict
 
 #### If you want to clear previously specified grammars, use this at the
@@ -61,7 +61,7 @@
 ##
 ## word insertion penalty
 ##
--d ../../LanguageModel/lm_indonesia/ug
+#-d ../../LanguageModel/lm_indonesia/ug
 #-penalty1 5.0		# first pass
 #-penalty2 20.0		# second pass
 

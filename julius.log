@@ -7,14 +7,14 @@ Stat: check_hmm_restriction: an HMM with several arcs from initial state found: 
 Stat: rdhmmdef: this HMM requires multipath handling at decoding
 Stat: rdhmmdef: no <SID> embedded
 Stat: rdhmmdef: assign SID by the order of appearance
-Stat: init_phmm: defined HMMs:    57
+Stat: init_phmm: defined HMMs:    55
 Stat: init_phmm: loading ascii hmmlist
-Stat: init_phmm: logical names:   639 in HMMList
-Stat: init_phmm: base phones:    32 used in logical
+Stat: init_phmm: logical names:   621 in HMMList
+Stat: init_phmm: base phones:    31 used in logical
 Stat: init_phmm: finished reading HMM definitions
 STAT: m_fusion: force multipath HMM handling by user request
 STAT: making pseudo bi/mono-phone for IW-triphone
-Stat: hmm_lookup: 230 pseudo phones are added to logical HMM list
+Stat: hmm_lookup: 208 pseudo phones are added to logical HMM list
 STAT: *** AM00 _default loaded
 STAT: *** loading LM00 _default
 STAT: reading [sample.dfa] and [sample.dict]...
@@ -117,7 +117,7 @@ Acoustic Model(s)
 [AM00 "_default"]
 
  HMM Info:
-    57 models, 112 states, 112 mpdfs, 112 Gaussians are defined
+    55 models, 109 states, 109 mpdfs, 109 Gaussians are defined
 	      model type = context dependency handling ON
       training parameter = MFCC_N_D_Z_0
 	   vector length = 25
@@ -127,7 +127,7 @@ Acoustic Model(s)
 	   duration type = NULLD
 	max mixture size = 1 Gaussians
      max length of model = 5 states
-     logical base phones = 32
+     logical base phones = 31
        model skip trans. = exist, require multi-path handling
       skippable models = sp (1 model(s))
 
@@ -244,26 +244,6 @@ Stat: adin_portaudio: [Windows DirectSound: Primary Sound Capture Driver]
 Stat: adin_portaudio: (you can specify device by "PORTAUDIO_DEV_NUM=number"
 Stat: adin_portaudio: try to set default low latency from portaudio: 0 msec
 Stat: adin_portaudio: latency was set to 0.000000 msec
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
-WARNING: 00 _default: hypothesis stack exhausted, terminate search now
-STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
 STAT: 00 _default: 0 sentences have been found
 WARNING: 00 _default: hypothesis stack exhausted, terminate search now
